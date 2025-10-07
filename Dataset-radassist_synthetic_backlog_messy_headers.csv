@@ -1,0 +1,511 @@
+Study ID,PatientId,Modality ,Body-Part,PRIORITY,requestDate,Scan Date,ReportDate,followUpRecommended,follow up type,followUpDueDate,FollowUpStatus,referringSpecialty,site,Radiologist,reportTextExcerpt
+S00000,P93810,CT,Chest,Urgent,2025-08-01,2025-08-08,2025-08-10,False,None,tbc,Not required,Surgery,Trust C,Dr Brown,CT Chest – no follow-up required.
+S00001,P21395,Ultrasound,Chest,Routine,2025-07-28,2025-08-04,2025-08-04,False,None,,Not required,Surgery,Trust C,Dr Brown,Ultrasound Chest – no follow-up required.
+S00002,P64987,MRI,Spine,Routine,2025-10-12,2025-11-08,,False,None,,Not required,Oncology,Trust C,Dr Patel,MRI Spine – no follow-up required.
+S00003,P54597,X-ray,Abdomen,Routine,2025-10-06,2025-10-16,2025-10-17,True,CT,2025-11-28,Completed,ED,Trust B,Dr Smith,X-ray Abdomen – follow-up recommended.
+S00004,P70217,CT,Spine,Routine,2025-08-07,2025-09-02,2025-09-07,N,None,,Not required,Surgery,Trust A,Dr Smith,CT Spine – no follow-up required.
+S00005,P96673,MRI,Shoulder,Routine,2025-07-11,2025-08-07,2025-08-10,False,None,,Not required,Orthopaedics,Trust B,Dr Patel,MRI Shoulder – no follow-up required.
+S00006,P93320,X-ray,Abdomen,Routine,2025-07-27,2025-08-17,2025-08-21,False,None,,Not required,Surgery,Trust C,Dr Smith,X-ray Abdomen – no follow-up required.
+S00007,P89840,MRI,Pelvis,Urgent,2025-07-21,2025-08-04,2025-08-10,True,Bloods,tbc,Completed,GP,Trust A,Dr Smith,MRI Pelvis – follow-up recommended.
+S00008,P51347,Ultrasound,Head,Routine,2025-10-25,2025-11-24,2025-11-29,True,Clinic,2026-02-27,overdue,Oncology,Trust B,Dr Jones,Ultrasound Head – follow-up recommended.
+S00009,P42325,X-ray,Knee,Routine,2025-10-23,2025-11-10,2025-11-16,False,None,,Not required,Oncology,Trust C,Dr Patel,X-ray Knee – no follow-up required.
+S00010,P21915,CT,,ROUTINE,2025-09-19,2025-09-24,2025-09-30,False,None,,not required,Orthopaedics,Trust B,Dr Brown,CT Shoulder – no follow-up required.
+S00011,P71348,X-ray,Pelvis,2WW,2025-07-02,2025-07-23,2025-07-24,False,None,,not required,ED,Trust B,Dr Lee,X-ray Pelvis – no follow-up required.
+S00012,P24621,X-ray,Spine,Routine,2025-07-01,2025-07-31,2025-08-04,False,None,,Not required,Oncology,Trust C,Dr Smith,X-ray Spine – no follow-up required.
+S00013,P91959,X-ray,Shoulder,Urgent,2025-09-16,,,False,None,,Not required,Oncology,Trust C,Dr Brown,X-ray Shoulder – no follow-up required.
+S00014,P10074,X-ray,Spine,Routine,2025-10-27,2025-11-07,2025-11-11,True,MRI,2025-11-25,Pending,Surgery,Trust B,Dr Smith,X-ray Spine – follow-up recommended.
+S00015,P79822,MRI,Abdomen,,2025-09-09,2025-09-14,,False,None,,Not required,ED,Trust B,Dr Jones,MRI Abdomen – no follow-up required.
+S00016,P80686,MRI,Knee,ROUTINE,2025-09-24,2025-10-14,2025-10-19,Yes,None,,Not required,ED,Trust B,Dr Smith,MRI Knee – no follow-up required.
+S00017,P42493,MRI,Chest,Routine,2025-09-14,2025-10-01,2025-10-04,False,None,,Not required,GP,Trust A,Dr Smith,MRI Chest – no follow-up required.
+S00018,P40007,CT,Chest,2WW,2025-07-10,2025-07-26,2025-07-29,True,Clinic,2025-08-28,scheduled,Surgery,Trust C,Dr Brown,CT Chest – follow-up recommended.
+S00019,P71953,MRI,Shoulder,Routine,2025-08-22,,2025-08-29,True,Clinic,2025-10-10,Overdue,Orthopaedics,Trust B,Dr Smith,MRI Shoulder – follow-up recommended.
+S00020,P98259,CT,Chest,Routine,2025-08-13,2025-09-07,2025-09-08,True,MRI,2025-12-07,Scheduled,Orthopaedics,Trust A,Dr Lee,CT Chest – follow-up recommended.
+S00021,P70637,MRI,Shoulder,2WW,2025-08-26,2025-09-20,2025-09-21,True,Bloods,2025-10-05,Pending,Oncology,Trust A,Dr Patel,MRI Shoulder – follow-up recommended.
+S00022,P73653,Ultrasound,Abdomen,2WW,2025-10-24,2025-10-25,2025-10-27,False,None,,Not required,Orthopaedics,Trust B,Dr Patel,Ultrasound Abdomen – no follow-up required.
+S00023,P47388,Ultrasound,Knee,Emergency,2025-10-09,2025-10-26,2025-11-02,True,Ultrasound,2025-12-02,pending,ED,Trust C,Dr Brown,Ultrasound Knee – follow-up recommended.
+S00024,P17989,X-ray,Chest,Routine,2025-08-31,2025-09-16,2025-09-18,True,Bloods,2025-10-02,Scheduled,GP,Trust C,Dr Smith,X-ray Chest – follow-up recommended.
+S00025,P98501,MRI,Spine,Routine,2025-10-22,2025-11-09,2025-11-12,False,None,,Not required,GP,Trust C,Dr Smith,MRI Spine – no follow-up required.
+S00026,P64948,X-ray,Head,Routine,2025-09-30,2025-10-10,2025-10-13,Y,MRI,2025-11-24,Overdue,Respiratory,Trust A,Dr Smith,X-ray Head – follow-up recommended.
+S00027,P70068,CT,Chest,Routine,2025-09-03,2025-09-11,2025-09-13,False,None,,Not required,GP,Trust A,Dr Lee,CT Chest – no follow-up required.
+S00028,P47353,MRI,Spine,URGENT,2025-09-29,2025-10-08,2025-10-08,False,None,,Not required,ED,Trust B,Dr Smith,MRI Spine – no follow-up required.
+S00029,P27601,X-ray,Chest,2WW,2025-10-04,2025-10-21,2025-10-23,True,Bloods,tbc,Completed,Oncology,Trust C,Dr Lee,X-ray Chest – follow-up recommended.
+S00030,P76244,Ultrasound,Head,2WW,2025-10-17,,2025-10-19,False,None,,Not required,Respiratory,Trust A,Dr Smith,Ultrasound Head – no follow-up required.
+S00031,P53719,MRI,Knee,Emergency,2025-07-21,2025-08-13,2025-08-20,False,None,,Not required,Orthopaedics,Trust C,Dr Smith,MRI Knee – no follow-up required.
+S00032,P24663,CT,Knee,2WW,2025-09-08,2025-09-09,2025-09-14,False,None,,Not required,Oncology,Trust B,Dr Jones,CT Knee – no follow-up required.
+S00033,P15482,X-ray,Head,2WW,2025-10-10,2025-11-06,2025-11-06,False,None,,Not required,Oncology,Trust C,Dr Jones,X-ray Head – no follow-up required.
+S00034,P97416,CT,Head,Urgent,2025-10-22,2025-11-18,2025-11-24,False,None,,Not required,Surgery,Trust A,Dr Jones,CT Head – no follow-up required.
+S00035,P31299,MRI,Spine,Routine,2025-10-03,2025-11-01,2025-11-06,False,None,,Not required,Orthopaedics,Trust C,Dr Jones,MRI Spine – no follow-up required.
+S00036,P44970,MRI,Shoulder,Urgent,2025-08-18,2025-09-14,2025-09-14,False,None,,Not required,Oncology,Trust A,Dr Patel,MRI Shoulder – no follow-up required.
+S00037,P55830,X-ray,Shoulder,Urgent,2025-07-30,2025-08-06,2025-08-06,False,None,,Not required,Orthopaedics,Trust B,Dr Lee,X-ray Shoulder – no follow-up required.
+S00038,P19099,X-ray,Head,Urgent,2025-08-21,2025-09-11,2025-09-16,False,None,,Not required,GP,Trust B,Dr Jones,X-ray Head – no follow-up required.
+S00039,P86099,X-ray,Chest,Routine,2025-08-25,2025-09-05,2025-09-10,Y,None,,Not required,ED,Trust A,Dr Patel,X-ray Chest – no follow-up required.
+S00040,P85574,MRI,Head,Routine,2025-08-25,2025-08-25,2025-08-28,False,None,,Not required,GP,Trust C,Dr Lee,MRI Head – no follow-up required.
+S00041,P91678,X-ray,Knee,Urgent,2025-10-01,2025-10-29,2025-11-02,False,None,,Not required,Surgery,Trust B,Dr Lee,X-ray Knee – no follow-up required.
+S00042,P62743,X-ray,,Routine,2025-08-23,2025-09-13,2025-09-19,False,None,,Not required,Oncology,Trust C,Dr Brown,X-ray Pelvis – no follow-up required.
+S00043,P49446,Ultrasound,Pelvis,Urgent,2025-08-08,2025-08-17,2025-08-20,False,None,,Not required,ED,Trust C,Dr Lee,Ultrasound Pelvis – no follow-up required.
+S00044,P70946,Ultrasound,Spine,Urgent,2025-09-04,2025-09-19,2025-09-21,False,None,,Not required,Respiratory,Trust C,Dr Brown,Ultrasound Spine – no follow-up required.
+S00045,P53933,CT,Shoulder,Emergency,2025-07-31,2025-08-21,2025-08-25,True,MRI,2025-09-24,Pending,GP,Trust A,Dr Patel,CT Shoulder – follow-up recommended.
+S00046,P90120,CT,Spine,ROUTINE,2025-09-19,2025-10-07,2025-10-10,False,None,,not required,Orthopaedics,Trust B,Dr Patel,CT Spine – no follow-up required.
+S00047,P41979,MRI,Knee,Urgent,2025-10-23,,2025-11-17,False,None,,Not required,Oncology,Trust A,Dr Brown,MRI Knee – no follow-up required.
+S00048,P70889,CT,Pelvis,Routine,2025-10-17,2025-10-20,2025-10-27,True,Clinic,2025-12-08,Overdue,ED,Trust C,Dr Brown,CT Pelvis – follow-up recommended.
+S00049,P65933,Ultrasound,Abdomen,URGENT,2025-08-30,,2025-09-17,False,None,,Not required,Surgery,Trust B,Dr Brown,Ultrasound Abdomen – no follow-up required.
+S00050,P73517,MRI,Head,Routine,2025-09-30,2025-10-09,2025-10-12,True,Ultrasound,2025-10-26,Scheduled,Oncology,Trust A,Dr Patel,MRI Head – follow-up recommended.
+S00051,P30028,MRI,Chest,Routine,2025-08-12,2025-08-29,2025-09-05,False,None,,Not required,Oncology,Trust B,Dr Patel,MRI Chest – no follow-up required.
+S00052,P86556,CT,Shoulder,2WW,2025-09-12,2025-09-24,2025-10-01,True,Ultrasound,2025-11-12,Overdue,Orthopaedics,Trust C,Dr Brown,CT Shoulder – follow-up recommended.
+S00053,P89069,MRI,Spine,Routine,2025-08-25,2025-09-09,2025-09-09,TRUE,None,,Not required,Surgery,Trust C,Dr Patel,MRI Spine – no follow-up required.
+S00054,P31632,Ultrasound,Abdomen,EMERGENCY,2025-09-07,2025-09-07,2025-09-13,False,None,,Not required,Surgery,Trust A,Dr Smith,Ultrasound Abdomen – no follow-up required.
+S00055,P94246,Ultrasound,Abdomen,2WW,2025-07-24,2025-07-25,2025-07-29,False,None,,Not required,Oncology,Trust B,Dr Lee,Ultrasound Abdomen – no follow-up required.
+S00056,P54236,Ultrasound,Head,Urgent,2025-10-15,2025-10-28,2025-11-01,False,None,,Not required,Orthopaedics,Trust A,Dr Brown,Ultrasound Head – no follow-up required.
+S00057,P16826,X-ray,Abdomen,,2025-10-08,2025-11-07,2025-11-07,No,None,,Not required,Oncology,Trust A,Dr Smith,X-ray Abdomen – no follow-up required.
+S00058,P91439,MRI,Abdomen,ROUTINE,2025-09-24,2025-09-27,2025-09-30,False,None,tbc,Not required,Respiratory,Trust B,Dr Jones,MRI Abdomen – no follow-up required.
+S00059,P89415,CT,Shoulder,Urgent,2025-08-09,2025-08-12,2025-08-12,False,None,,Not required,ED,Trust C,Dr Patel,CT Shoulder – no follow-up required.
+S00060,P61990,MRI,Chest,Routine,2025-10-15,2025-11-04,2025-11-07,N,Ultrasound,2025-11-21,pending,Respiratory,Trust C,Dr Patel,MRI Chest – follow-up recommended.
+S00061,P96706,X-ray,Chest,Routine,2025-08-13,2025-08-13,2025-08-19,False,None,,Not required,GP,Trust B,Dr Lee,X-ray Chest – no follow-up required.
+S00062,P93307,Ultrasound,Knee,ROUTINE,2025-07-23,2025-08-15,2025-08-19,False,None,,Not required,ED,Trust B,Dr Patel,Ultrasound Knee – no follow-up required.
+S00063,P67091,X-ray,Head,,2025-10-15,2025-11-13,2025-11-14,True,Clinic,2025-12-14,Overdue,ED,Trust C,Dr Patel,X-ray Head – follow-up recommended.
+S00064,P54092,CT,Spine,2WW,2025-07-24,2025-08-08,2025-08-11,False,None,,not required,Respiratory,Trust B,Dr Lee,CT Spine – no follow-up required.
+S00065,P88139,X-ray,Pelvis,Routine,2025-07-25,2025-07-27,2025-07-30,False,None,,Not required,Orthopaedics,Trust C,Dr Jones,X-ray Pelvis – no follow-up required.
+S00066,P72402,Ultrasound,Spine,Urgent,2025-07-12,2025-07-21,2025-07-24,False,None,,Not required,Oncology,Trust B,Dr Brown,Ultrasound Spine – no follow-up required.
+S00067,P58368,Ultrasound,Pelvis,Routine,2025-08-24,2025-09-16,2025-09-21,False,None,,Not required,Orthopaedics,Trust B,Dr Lee,Ultrasound Pelvis – no follow-up required.
+S00068,P42951,MRI,Chest,Urgent,2025-08-10,2025-08-13,2025-08-15,True,Clinic,2025-09-26,Completed,GP,Trust A,Dr Lee,MRI Chest – follow-up recommended.
+S00069,P39816,X-ray,Abdomen,Routine,2025-09-29,2025-10-16,2025-10-18,True,CT,2025-11-29,Scheduled,Surgery,Trust B,Dr Smith,X-ray Abdomen – follow-up recommended.
+S00070,P11607,X-ray,Spine,Routine,2025-08-13,2025-08-18,2025-08-18,TRUE,Clinic,2025-09-01,Pending,Orthopaedics,Trust B,Dr Smith,X-ray Spine – follow-up recommended.
+S00071,P85631,CT,Abdomen,Routine,2025-09-11,2025-10-11,2025-10-15,True,MRI,tbc,Overdue,ED,Trust C,Dr Brown,CT Abdomen – follow-up recommended.
+S00072,P39581,Ultrasound,,2WW,2025-08-08,2025-09-04,2025-09-10,True,Bloods,2025-09-24,Pending,Oncology,Trust C,Dr Jones,Ultrasound Spine – follow-up recommended.
+S00073,P44687,CT,Abdomen,Routine,2025-09-09,,2025-09-13,True,Clinic,2025-12-12,Completed,GP,Trust A,Dr Lee,CT Abdomen – follow-up recommended.
+S00074,P47056,Ultrasound,Chest,Urgent,2025-10-27,2025-11-04,2025-11-07,False,None,,Not required,ED,Trust A,Dr Jones,Ultrasound Chest – no follow-up required.
+S00075,P44816,MRI,Chest,Routine,2025-10-10,2025-10-19,2025-10-23,False,None,,Not required,Orthopaedics,Trust C,Dr Lee,MRI Chest – no follow-up required.
+S00076,P62757,X-ray,Pelvis,Routine,2025-08-26,2025-08-28,,False,None,,Not required,Surgery,Trust B,Dr Brown,X-ray Pelvis – no follow-up required.
+S00077,P42816,CT,Chest,Routine,2025-09-25,2025-10-21,2025-10-21,False,None,,Not required,Surgery,Trust B,Dr Brown,CT Chest – no follow-up required.
+S00078,P15273,MRI,Spine,Routine,2025-08-26,2025-09-24,2025-09-28,True,Bloods,2025-12-27,Overdue,GP,Trust B,Dr Lee,MRI Spine – follow-up recommended.
+S00079,P63523,X-ray,Head,Urgent,2025-10-18,2025-10-23,2025-10-28,False,None,,Not required,Orthopaedics,Trust B,Dr Patel,X-ray Head – no follow-up required.
+S00080,P82102,CT,Spine,Routine,2025-08-02,2025-08-12,2025-08-13,False,None,,not required,Orthopaedics,Trust C,Dr Smith,CT Spine – no follow-up required.
+S00081,P96200,Ultrasound,Spine,Routine,2025-09-05,2025-09-16,2025-09-23,False,None,,not required,GP,Trust A,Dr Lee,Ultrasound Spine – no follow-up required.
+S00082,P81987,MRI,Head,Routine,2025-09-28,2025-10-13,2025-10-14,True,Bloods,2025-11-13,Scheduled,Respiratory,Trust C,Dr Smith,MRI Head – follow-up recommended.
+S00083,P82384,Ultrasound,Chest,Routine,2025-10-16,2025-11-14,2025-11-15,N,None,,Not required,GP,Trust C,Dr Jones,Ultrasound Chest – no follow-up required.
+S00084,P75323,X-ray,Pelvis,Urgent,2025-08-23,2025-09-18,2025-09-25,False,None,,Not required,Oncology,Trust B,Dr Brown,X-ray Pelvis – no follow-up required.
+S00085,P28958,Ultrasound,Abdomen,2WW,2025-09-04,2025-09-27,2025-09-29,False,None,,Not required,Respiratory,Trust B,Dr Lee,Ultrasound Abdomen – no follow-up required.
+S00086,P76550,X-ray,Shoulder,ROUTINE,2025-10-01,2025-10-10,2025-10-17,False,None,,Not required,Orthopaedics,Trust C,Dr Patel,X-ray Shoulder – no follow-up required.
+S00087,P55236,X-ray,Pelvis,Urgent,2025-08-18,2025-09-01,2025-09-06,Y,None,,Not required,Surgery,Trust A,Dr Brown,X-ray Pelvis – no follow-up required.
+S00088,P60196,MRI,Shoulder,Urgent,2025-07-06,2025-07-16,2025-07-23,Y,None,,Not required,Orthopaedics,Trust B,Dr Jones,MRI Shoulder – no follow-up required.
+S00089,P74923,CT,Abdomen,Routine,2025-09-14,2025-09-24,2025-09-25,False,None,,Not required,Orthopaedics,Trust A,Dr Brown,CT Abdomen – no follow-up required.
+S00090,P69890,CT,Knee,Routine,2025-10-20,2025-11-09,2025-11-11,True,Ultrasound,2025-12-23,Overdue,Surgery,Trust A,Dr Lee,CT Knee – follow-up recommended.
+S00091,P98389,Ultrasound,Head,Urgent,2025-10-22,2025-11-15,2025-11-22,False,None,,Not required,GP,Trust C,Dr Smith,Ultrasound Head – no follow-up required.
+S00092,P40771,X-ray,Abdomen,Urgent,2025-08-25,2025-08-28,2025-08-29,False,None,,Not required,Surgery,Trust B,Dr Smith,X-ray Abdomen – no follow-up required.
+S00093,P16028,X-ray,Shoulder,Routine,2025-08-15,2025-08-26,2025-09-01,True,Bloods,2025-11-30,Scheduled,Oncology,Trust A,Dr Smith,X-ray Shoulder – follow-up recommended.
+S00094,P89887,Ultrasound,Pelvis,Urgent,2025-09-02,2025-10-01,2025-10-03,True,Ultrasound,2026-01-01,Completed,Surgery,Trust A,Dr Patel,Ultrasound Pelvis – follow-up recommended.
+S00095,P47700,MRI,Chest,Routine,2025-08-14,2025-09-01,2025-09-05,False,None,,Not required,Orthopaedics,Trust C,Dr Lee,MRI Chest – no follow-up required.
+S00096,P69878,X-ray,Abdomen,Emergency,2025-10-18,2025-11-02,2025-11-03,True,Bloods,2025-12-15,Completed,Surgery,Trust B,Dr Smith,X-ray Abdomen – follow-up recommended.
+S00097,P96275,Ultrasound,Head,Routine,2025-10-19,2025-11-09,2025-11-09,False,None,,Not required,Surgery,Trust B,Dr Lee,Ultrasound Head – no follow-up required.
+S00098,P40162,X-ray,,Urgent,2025-09-18,2025-09-26,2025-09-28,False,None,,Not required,Surgery,Trust C,Dr Smith,X-ray Abdomen – no follow-up required.
+S00099,P50492,Ultrasound,Chest,Routine,2025-10-02,2025-10-06,2025-10-07,False,None,,Not required,Respiratory,Trust C,Dr Patel,Ultrasound Chest – no follow-up required.
+S00100,P33021,MRI,,Urgent,2025-10-21,2025-11-01,2025-11-05,False,None,,Not required,Respiratory,Trust B,Dr Lee,MRI Abdomen – no follow-up required.
+S00101,P54396,CT,Spine,EMERGENCY,2025-07-19,2025-08-12,2025-08-15,False,None,,Not required,Surgery,Trust C,Dr Patel,CT Spine – no follow-up required.
+S00102,P83048,X-ray,Chest,Urgent,2025-07-02,2025-07-10,2025-07-11,False,None,,Not required,Surgery,Trust C,Dr Lee,X-ray Chest – no follow-up required.
+S00103,P86619,Ultrasound,Shoulder,Urgent,2025-08-17,2025-08-20,2025-08-23,False,None,,Not required,ED,Trust C,Dr Lee,Ultrasound Shoulder – no follow-up required.
+S00104,P89964,MRI,Knee,ROUTINE,2025-10-14,2025-10-28,2025-11-01,Y,None,,Not required,GP,Trust A,Dr Smith,MRI Knee – no follow-up required.
+S00105,P14877,X-ray,Spine,Routine,2025-07-31,2025-08-28,2025-08-30,False,None,,Not required,Respiratory,Trust C,Dr Brown,X-ray Spine – no follow-up required.
+S00106,P64935,MRI,Spine,URGENT,2025-10-15,2025-10-30,2025-11-05,False,None,,Not required,Respiratory,Trust A,Dr Lee,MRI Spine – no follow-up required.
+S00107,P38477,Ultrasound,Spine,Emergency,2025-10-18,2025-10-29,2025-10-30,False,None,,Not required,Respiratory,Trust C,Dr Lee,Ultrasound Spine – no follow-up required.
+S00108,P17936,Ultrasound,Head,Routine,2025-07-16,2025-08-15,2025-08-22,True,MRI,2025-09-05,Pending,Respiratory,Trust A,Dr Jones,Ultrasound Head – follow-up recommended.
+S00109,P84000,MRI,Chest,URGENT,2025-09-09,2025-09-15,2025-09-18,False,None,,Not required,Oncology,Trust B,Dr Jones,MRI Chest – no follow-up required.
+S00110,P88116,CT,Head,,2025-07-19,2025-07-23,2025-07-27,False,None,,Not required,GP,Trust C,Dr Smith,CT Head – no follow-up required.
+S00111,P27275,CT,Head,URGENT,2025-07-31,2025-08-18,2025-08-23,True,Ultrasound,2025-09-06,Scheduled,Surgery,Trust B,Dr Brown,CT Head – follow-up recommended.
+S00112,P24896,CT,Spine,Routine,2025-08-16,2025-09-01,2025-09-02,False,None,,Not required,Oncology,Trust C,Dr Smith,CT Spine – no follow-up required.
+S00113,P96363,X-ray,Spine,Urgent,2025-07-04,2025-07-05,2025-07-12,Yes,None,,Not required,Orthopaedics,Trust C,Dr Smith,X-ray Spine – no follow-up required.
+S00114,P74260,Ultrasound,Chest,2WW,2025-08-11,2025-08-30,2025-09-01,True,Ultrasound,2025-10-13,Overdue,ED,Trust C,Dr Lee,Ultrasound Chest – follow-up recommended.
+S00115,P69469,Ultrasound,Chest,Urgent,2025-07-15,2025-08-11,2025-08-14,False,None,,Not required,Oncology,Trust B,Dr Lee,Ultrasound Chest – no follow-up required.
+S00116,P69441,Ultrasound,Spine,Urgent,2025-08-10,2025-08-23,2025-08-28,False,None,,Not required,Respiratory,Trust A,Dr Patel,Ultrasound Spine – no follow-up required.
+S00117,P18799,CT,Shoulder,Routine,2025-08-25,2025-08-28,2025-09-02,FALSE,None,,Not required,ED,Trust A,Dr Brown,CT Shoulder – no follow-up required.
+S00118,P83608,X-ray,Knee,Routine,2025-08-15,2025-09-11,2025-09-17,False,None,,Not required,Surgery,Trust A,Dr Lee,X-ray Knee – no follow-up required.
+S00119,P88696,X-ray,Head,Routine,2025-09-03,2025-09-09,2025-09-11,False,None,,Not required,Oncology,Trust A,Dr Lee,X-ray Head – no follow-up required.
+S00120,P82910,X-ray,Chest,Urgent,2025-09-12,2025-09-19,2025-09-25,False,None,,Not required,ED,Trust C,Dr Brown,X-ray Chest – no follow-up required.
+S00121,P13441,X-ray,Chest,Routine,2025-09-28,2025-10-22,2025-10-26,False,None,,Not required,Respiratory,Trust A,Dr Jones,X-ray Chest – no follow-up required.
+S00122,P28776,Ultrasound,Chest,Routine,2025-09-20,2025-09-20,2025-09-21,False,None,,Not required,Oncology,Trust B,Dr Patel,Ultrasound Chest – no follow-up required.
+S00123,P69460,X-ray,Abdomen,Routine,2025-10-01,2025-10-11,2025-10-12,FALSE,None,,Not required,Oncology,Trust A,Dr Brown,X-ray Abdomen – no follow-up required.
+S00124,P16522,CT,Head,Routine,2025-08-24,2025-09-08,2025-09-15,False,None,,Not required,Oncology,Trust C,Dr Smith,CT Head – no follow-up required.
+S00125,P55242,Ultrasound,Chest,Routine,2025-09-25,2025-10-13,2025-10-20,False,None,,Not required,Respiratory,Trust A,Dr Jones,Ultrasound Chest – no follow-up required.
+S00126,P61807,CT,Chest,Routine,2025-07-28,2025-08-21,2025-08-23,False,None,,Not required,Respiratory,Trust B,Dr Smith,CT Chest – no follow-up required.
+S00127,P11013,Ultrasound,Knee,Routine,2025-07-17,2025-07-29,2025-08-01,False,None,,Not required,Surgery,Trust B,Dr Smith,Ultrasound Knee – no follow-up required.
+S00128,P62044,CT,,,2025-10-26,2025-10-28,2025-11-02,False,None,,Not required,ED,Trust B,Dr Patel,CT Spine – no follow-up required.
+S00129,P47947,CT,Spine,Routine,2025-08-11,2025-08-16,2025-08-23,No,None,,Not required,Respiratory,Trust A,Dr Patel,CT Spine – no follow-up required.
+S00130,P23875,MRI,Spine,Routine,2025-09-06,2025-09-08,2025-09-14,False,None,,Not required,Surgery,Trust B,Dr Jones,MRI Spine – no follow-up required.
+S00131,P53655,MRI,Chest,Routine,2025-07-15,2025-07-31,2025-08-03,False,None,,not required,Respiratory,Trust B,Dr Jones,MRI Chest – no follow-up required.
+S00132,P40968,CT,Abdomen,ROUTINE,2025-07-23,2025-08-11,2025-08-13,False,None,,Not required,Surgery,Trust A,Dr Jones,CT Abdomen – no follow-up required.
+S00133,P92306,Ultrasound,Spine,Urgent,2025-10-06,2025-10-24,2025-10-31,False,None,,Not required,ED,Trust C,Dr Brown,Ultrasound Spine – no follow-up required.
+S00134,P52363,X-ray,Abdomen,Routine,2025-08-30,2025-09-13,2025-09-17,False,None,tbc,Not required,ED,Trust A,Dr Lee,X-ray Abdomen – no follow-up required.
+S00135,P76497,CT,Head,Routine,2025-07-05,2025-07-06,2025-07-11,False,None,,Not required,GP,Trust C,Dr Smith,CT Head – no follow-up required.
+S00136,P90610,Ultrasound,Spine,Routine,2025-10-10,2025-11-02,2025-11-02,Y,None,,not required,ED,Trust C,Dr Jones,Ultrasound Spine – no follow-up required.
+S00137,P52143,Ultrasound,Pelvis,Routine,2025-07-08,2025-07-22,2025-07-23,FALSE,None,,Not required,Respiratory,Trust C,Dr Smith,Ultrasound Pelvis – no follow-up required.
+S00138,P76132,MRI,Chest,Routine,2025-08-26,2025-09-09,2025-09-11,False,None,,Not required,Respiratory,Trust B,Dr Patel,MRI Chest – no follow-up required.
+S00139,P54350,CT,Shoulder,Urgent,2025-08-12,2025-08-14,2025-08-19,Yes,Clinic,2025-09-30,Completed,Surgery,Trust C,Dr Brown,CT Shoulder – follow-up recommended.
+S00140,P29709,X-ray,Chest,,2025-07-19,2025-08-17,2025-08-22,True,Clinic,2025-09-21,Pending,Respiratory,Trust C,Dr Patel,X-ray Chest – follow-up recommended.
+S00141,P94343,X-ray,Shoulder,Routine,2025-09-28,2025-10-24,2025-10-25,False,None,,Not required,Orthopaedics,Trust C,Dr Lee,X-ray Shoulder – no follow-up required.
+S00142,P12389,X-ray,Head,Routine,2025-07-28,2025-08-07,2025-08-14,True,MRI,2025-09-13,Pending,Respiratory,Trust A,Dr Brown,X-ray Head – follow-up recommended.
+S00143,P80748,CT,Knee,Routine,2025-10-07,2025-10-26,2025-10-28,Yes,None,,Not required,Oncology,Trust A,Dr Jones,CT Knee – no follow-up required.
+S00144,P91885,MRI,Knee,ROUTINE,2025-08-22,2025-09-02,2025-09-05,False,None,,Not required,ED,Trust B,Dr Patel,MRI Knee – no follow-up required.
+S00145,P40671,MRI,,Emergency,2025-10-09,2025-10-24,2025-10-27,False,None,,Not required,ED,Trust B,Dr Patel,MRI Head – no follow-up required.
+S00146,P46932,Ultrasound,Pelvis,Routine,2025-07-21,2025-08-16,2025-08-19,Yes,None,,Not required,Oncology,Trust B,Dr Smith,Ultrasound Pelvis – no follow-up required.
+S00147,P94040,Ultrasound,Shoulder,Routine,2025-10-28,2025-10-31,2025-11-01,True,MRI,2025-12-13,Overdue,ED,Trust A,Dr Patel,Ultrasound Shoulder – follow-up recommended.
+S00148,P22021,MRI,Shoulder,Routine,2025-08-14,2025-09-12,2025-09-12,False,None,,Not required,Orthopaedics,Trust C,Dr Lee,MRI Shoulder – no follow-up required.
+S00149,P40903,Ultrasound,Chest,Routine,2025-07-04,2025-07-14,2025-07-15,False,None,,Not required,Surgery,Trust B,Dr Jones,Ultrasound Chest – no follow-up required.
+S00150,P28035,CT,Head,2WW,2025-08-30,2025-09-21,,False,None,,Not required,Orthopaedics,Trust B,Dr Brown,CT Head – no follow-up required.
+S00151,P10688,CT,Chest,Routine,2025-10-15,2025-10-19,2025-10-25,True,Ultrasound,2025-11-24,Completed,GP,Trust A,Dr Jones,CT Chest – follow-up recommended.
+S00152,P65027,Ultrasound,Chest,Routine,2025-10-24,2025-11-08,2025-11-08,False,None,tbc,Not required,ED,Trust A,Dr Jones,Ultrasound Chest – no follow-up required.
+S00153,P48177,Ultrasound,Chest,URGENT,2025-07-31,2025-08-18,2025-08-24,TRUE,CT,2025-10-05,Pending,ED,Trust C,Dr Brown,Ultrasound Chest – follow-up recommended.
+S00154,P76535,CT,Spine,2WW,2025-07-06,2025-07-26,2025-08-01,False,None,,Not required,Respiratory,Trust C,Dr Smith,CT Spine – no follow-up required.
+S00155,P56805,CT,Head,Routine,2025-09-23,2025-10-13,2025-10-14,No,None,,Not required,Surgery,Trust B,Dr Jones,CT Head – no follow-up required.
+S00156,P15811,X-ray,Pelvis,Routine,2025-09-21,2025-09-26,2025-10-03,False,None,,Not required,Orthopaedics,Trust C,Dr Jones,X-ray Pelvis – no follow-up required.
+S00157,P27675,CT,Knee,Urgent,2025-08-28,2025-08-29,2025-09-02,True,MRI,2025-09-16,Completed,Respiratory,Trust C,Dr Patel,CT Knee – follow-up recommended.
+S00158,P81176,Ultrasound,Head,Routine,2025-09-21,2025-09-27,2025-10-01,False,None,,Not required,GP,Trust C,Dr Lee,Ultrasound Head – no follow-up required.
+S00159,P45811,CT,Shoulder,Routine,2025-10-22,,2025-11-10,False,None,,Not required,Orthopaedics,Trust B,Dr Jones,CT Shoulder – no follow-up required.
+S00160,P75038,Ultrasound,Head,2WW,2025-09-05,2025-09-13,2025-09-14,False,None,,Not required,GP,Trust B,Dr Brown,Ultrasound Head – no follow-up required.
+S00161,P33652,X-ray,Head,Routine,2025-08-11,2025-09-01,2025-09-05,True,Bloods,2025-12-04,Scheduled,Surgery,Trust B,Dr Lee,X-ray Head – follow-up recommended.
+S00162,P68606,CT,Knee,2WW,2025-08-15,2025-09-03,2025-09-09,True,CT,2025-09-23,Overdue,Respiratory,Trust C,Dr Jones,CT Knee – follow-up recommended.
+S00163,P14081,MRI,Shoulder,Urgent,2025-10-09,2025-10-23,2025-10-23,True,MRI,2025-12-04,Completed,Orthopaedics,Trust C,Dr Smith,MRI Shoulder – follow-up recommended.
+S00164,P89310,MRI,Knee,Routine,2025-08-17,2025-08-28,2025-09-04,False,None,,Not required,ED,Trust A,Dr Brown,MRI Knee – no follow-up required.
+S00165,P58096,Ultrasound,Head,Urgent,2025-08-01,2025-08-31,2025-09-01,True,MRI,2025-11-30,Overdue,ED,Trust A,Dr Lee,Ultrasound Head – follow-up recommended.
+S00166,P44116,Ultrasound,Abdomen,Emergency,2025-08-06,2025-08-28,2025-09-04,True,MRI,2025-09-18,Overdue,Oncology,Trust C,Dr Patel,Ultrasound Abdomen – follow-up recommended.
+S00167,P21506,X-ray,Knee,Routine,2025-07-09,2025-07-26,2025-07-30,False,None,,Not required,Oncology,Trust C,Dr Jones,X-ray Knee – no follow-up required.
+S00168,P57381,MRI,Chest,Emergency,2025-10-10,,2025-10-17,False,None,,Not required,GP,Trust B,Dr Brown,MRI Chest – no follow-up required.
+S00169,P85009,X-ray,Spine,Urgent,2025-09-09,2025-09-13,2025-09-14,True,Clinic,2025-12-13,Overdue,Orthopaedics,Trust C,Dr Smith,X-ray Spine – follow-up recommended.
+S00170,P26426,X-ray,Knee,Routine,2025-08-29,2025-09-19,2025-09-24,Y,Bloods,2025-10-24,Scheduled,Orthopaedics,Trust C,Dr Smith,X-ray Knee – follow-up recommended.
+S00171,P26274,MRI,,Routine,2025-08-11,2025-09-09,2025-09-12,True,Bloods,2025-10-24,pending,Respiratory,Trust A,Dr Brown,MRI Head – follow-up recommended.
+S00172,P45972,MRI,Knee,Routine,2025-09-07,2025-09-09,2025-09-11,False,None,,Not required,ED,Trust A,Dr Jones,MRI Knee – no follow-up required.
+S00173,P96341,X-ray,Shoulder,2WW,2025-07-06,2025-08-01,2025-08-01,True,Bloods,2025-09-12,Scheduled,ED,Trust B,Dr Brown,X-ray Shoulder – follow-up recommended.
+S00174,P93753,CT,Spine,2WW,2025-09-08,2025-09-17,2025-09-21,False,None,,Not required,Surgery,Trust B,Dr Lee,CT Spine – no follow-up required.
+S00175,P69446,CT,Knee,Routine,2025-08-26,2025-09-08,2025-09-15,Yes,None,,Not required,Respiratory,Trust C,Dr Jones,CT Knee – no follow-up required.
+S00176,P50970,X-ray,Knee,Emergency,2025-08-14,2025-08-26,2025-08-28,False,None,,Not required,ED,Trust C,Dr Smith,X-ray Knee – no follow-up required.
+S00177,P51827,MRI,Spine,ROUTINE,2025-08-27,2025-09-03,2025-09-05,True,Ultrasound,2025-12-04,Overdue,Oncology,Trust A,Dr Lee,MRI Spine – follow-up recommended.
+S00178,P85718,X-ray,Abdomen,Urgent,2025-09-02,2025-09-18,2025-09-25,False,None,,Not required,Respiratory,Trust B,Dr Smith,X-ray Abdomen – no follow-up required.
+S00179,P21802,Ultrasound,Pelvis,Routine,2025-07-31,2025-08-06,2025-08-11,TRUE,Ultrasound,2025-11-09,Overdue,Respiratory,Trust C,Dr Smith,Ultrasound Pelvis – follow-up recommended.
+S00180,P24089,Ultrasound,Abdomen,2WW,2025-10-02,2025-10-13,2025-10-19,False,None,,Not required,Orthopaedics,Trust A,Dr Brown,Ultrasound Abdomen – no follow-up required.
+S00181,P83638,MRI,Head,Routine,2025-07-10,2025-07-22,2025-07-29,False,None,,Not required,Respiratory,Trust C,Dr Brown,MRI Head – no follow-up required.
+S00182,P25572,MRI,Chest,ROUTINE,2025-10-10,2025-10-20,2025-10-25,False,None,,not required,Oncology,Trust C,Dr Brown,MRI Chest – no follow-up required.
+S00183,P62610,CT,Chest,Routine,2025-09-30,2025-10-10,2025-10-17,False,None,,Not required,Oncology,Trust C,Dr Brown,CT Chest – no follow-up required.
+S00184,P28321,X-ray,Pelvis,Routine,2025-08-20,2025-09-08,2025-09-12,False,None,,Not required,ED,Trust C,Dr Brown,X-ray Pelvis – no follow-up required.
+S00185,P74205,X-ray,Spine,URGENT,2025-08-17,2025-08-27,2025-08-28,False,None,,Not required,ED,Trust B,Dr Smith,X-ray Spine – no follow-up required.
+S00186,P88238,Ultrasound,Head,Emergency,2025-10-09,2025-11-02,2025-11-05,False,None,,Not required,ED,Trust B,Dr Jones,Ultrasound Head – no follow-up required.
+S00187,P78712,Ultrasound,Abdomen,Urgent,2025-08-01,2025-08-02,2025-08-03,True,Clinic,2025-09-14,Overdue,Oncology,Trust B,Dr Jones,Ultrasound Abdomen – follow-up recommended.
+S00188,P63788,Ultrasound,Shoulder,Urgent,2025-10-02,2025-10-03,2025-10-05,False,None,,Not required,ED,Trust B,Dr Patel,Ultrasound Shoulder – no follow-up required.
+S00189,P78875,Ultrasound,Head,Emergency,2025-08-28,2025-09-26,2025-10-01,False,None,,Not required,Surgery,Trust C,Dr Lee,Ultrasound Head – no follow-up required.
+S00190,P89963,Ultrasound,Abdomen,Emergency,2025-08-05,2025-08-22,2025-08-26,True,Ultrasound,2025-10-07,Scheduled,Surgery,Trust C,Dr Patel,Ultrasound Abdomen – follow-up recommended.
+S00191,P51555,Ultrasound,Head,Routine,2025-10-28,2025-11-22,2025-11-26,True,Bloods,2026-02-24,Overdue,Respiratory,Trust A,Dr Lee,Ultrasound Head – follow-up recommended.
+S00192,P15513,X-ray,Knee,ROUTINE,2025-10-27,2025-11-10,2025-11-14,False,None,,Not required,Oncology,Trust A,Dr Brown,X-ray Knee – no follow-up required.
+S00193,P45537,X-ray,Abdomen,Routine,2025-10-03,2025-10-21,2025-10-24,True,Bloods,2025-11-23,Scheduled,GP,Trust A,Dr Patel,X-ray Abdomen – follow-up recommended.
+S00194,P53292,Ultrasound,Chest,Urgent,2025-07-18,2025-07-18,2025-07-20,False,None,,Not required,Orthopaedics,Trust B,Dr Jones,Ultrasound Chest – no follow-up required.
+S00195,P47649,X-ray,Head,Urgent,2025-10-25,2025-11-18,2025-11-19,False,None,,Not required,Oncology,Trust C,Dr Smith,X-ray Head – no follow-up required.
+S00196,P32946,Ultrasound,Shoulder,Routine,2025-10-26,2025-10-27,,FALSE,None,,Not required,Oncology,Trust C,Dr Lee,Ultrasound Shoulder – no follow-up required.
+S00197,P14910,CT,Head,Routine,2025-07-14,2025-08-12,2025-08-17,True,Bloods,2025-11-15,Scheduled,ED,Trust B,Dr Lee,CT Head – follow-up recommended.
+S00198,P35272,CT,Head,Routine,2025-08-28,2025-09-17,2025-09-21,False,None,,Not required,GP,Trust C,Dr Lee,CT Head – no follow-up required.
+S00199,P48669,MRI,Abdomen,Urgent,2025-09-20,2025-10-18,2025-10-24,False,None,,Not required,ED,Trust B,Dr Smith,MRI Abdomen – no follow-up required.
+S00200,P62538,CT,Abdomen,Emergency,2025-08-31,2025-09-10,2025-09-13,True,Clinic,tbc,Overdue,Respiratory,Trust B,Dr Lee,CT Abdomen – follow-up recommended.
+S00201,P86344,CT,Head,Urgent,2025-09-27,,2025-10-04,False,None,,Not required,Orthopaedics,Trust B,Dr Jones,CT Head – no follow-up required.
+S00202,P63138,X-ray,Knee,Routine,2025-10-26,,2025-11-29,False,None,,Not required,Oncology,Trust A,Dr Jones,X-ray Knee – no follow-up required.
+S00203,P72676,MRI,Spine,URGENT,2025-09-16,2025-09-27,2025-10-03,False,None,,not required,Orthopaedics,Trust C,Dr Jones,MRI Spine – no follow-up required.
+S00204,P42435,CT,Pelvis,Routine,2025-09-29,2025-10-10,2025-10-11,N,None,,Not required,GP,Trust A,Dr Brown,CT Pelvis – no follow-up required.
+S00205,P76255,MRI,,Routine,2025-07-22,2025-08-01,2025-08-08,True,MRI,2025-11-06,Pending,ED,Trust B,Dr Smith,MRI Pelvis – follow-up recommended.
+S00206,P69432,MRI,Pelvis,Routine,2025-09-11,2025-09-12,2025-09-19,False,None,,Not required,Respiratory,Trust C,Dr Smith,MRI Pelvis – no follow-up required.
+S00207,P61897,X-ray,Shoulder,Routine,2025-07-28,2025-08-15,2025-08-16,True,Ultrasound,2025-08-30,Pending,GP,Trust B,Dr Smith,X-ray Shoulder – follow-up recommended.
+S00208,P47629,Ultrasound,,URGENT,2025-10-07,2025-10-27,2025-11-02,False,None,,Not required,Orthopaedics,Trust B,Dr Patel,Ultrasound Abdomen – no follow-up required.
+S00209,P59236,CT,Knee,Emergency,2025-10-20,2025-11-06,2025-11-08,False,None,,Not required,Respiratory,Trust A,Dr Jones,CT Knee – no follow-up required.
+S00210,P80419,Ultrasound,Pelvis,Routine,2025-07-29,2025-08-24,2025-08-24,Yes,None,,Not required,Respiratory,Trust B,Dr Brown,Ultrasound Pelvis – no follow-up required.
+S00211,P65591,Ultrasound,Shoulder,Routine,2025-08-28,2025-09-08,2025-09-10,True,CT,2025-09-24,Overdue,ED,Trust A,Dr Jones,Ultrasound Shoulder – follow-up recommended.
+S00212,P37011,CT,Chest,Routine,2025-08-27,2025-09-15,2025-09-15,True,CT,2025-12-14,overdue,Oncology,Trust C,Dr Jones,CT Chest – follow-up recommended.
+S00213,P17398,MRI,Pelvis,Emergency,2025-07-30,2025-08-25,2025-08-30,False,None,,Not required,Surgery,Trust B,Dr Jones,MRI Pelvis – no follow-up required.
+S00214,P49552,MRI,Knee,ROUTINE,2025-08-22,2025-08-31,2025-09-04,True,Bloods,2025-10-04,Overdue,ED,Trust B,Dr Smith,MRI Knee – follow-up recommended.
+S00215,P55143,Ultrasound,Shoulder,Routine,2025-09-28,2025-10-11,2025-10-17,True,Clinic,2025-11-16,Overdue,Oncology,Trust A,Dr Lee,Ultrasound Shoulder – follow-up recommended.
+S00216,P28920,Ultrasound,Chest,Routine,2025-08-23,2025-09-09,2025-09-11,No,None,,Not required,Respiratory,Trust A,Dr Lee,Ultrasound Chest – no follow-up required.
+S00217,P94765,CT,Spine,Urgent,2025-07-12,2025-07-29,2025-08-01,True,Clinic,2025-08-15,Pending,Oncology,Trust C,Dr Brown,CT Spine – follow-up recommended.
+S00218,P38444,Ultrasound,Abdomen,2WW,2025-08-12,2025-08-21,2025-08-21,No,MRI,2025-09-04,Overdue,Oncology,Trust C,Dr Brown,Ultrasound Abdomen – follow-up recommended.
+S00219,P36805,Ultrasound,Abdomen,ROUTINE,2025-10-08,2025-10-17,2025-10-23,False,None,,Not required,Surgery,Trust B,Dr Lee,Ultrasound Abdomen – no follow-up required.
+S00220,P44283,X-ray,Pelvis,2WW,2025-08-29,2025-09-01,2025-09-08,False,None,,Not required,Respiratory,Trust A,Dr Lee,X-ray Pelvis – no follow-up required.
+S00221,P51015,Ultrasound,Chest,Routine,2025-07-29,2025-08-21,2025-08-23,True,Bloods,2025-11-21,Completed,Oncology,Trust A,Dr Lee,Ultrasound Chest – follow-up recommended.
+S00222,P40149,Ultrasound,Pelvis,Urgent,2025-09-02,2025-09-19,2025-09-24,True,Clinic,2025-12-23,Overdue,Oncology,Trust C,Dr Lee,Ultrasound Pelvis – follow-up recommended.
+S00223,P32185,MRI,Knee,Routine,2025-07-24,2025-08-22,2025-08-22,False,None,,Not required,GP,Trust C,Dr Smith,MRI Knee – no follow-up required.
+S00224,P10836,Ultrasound,Abdomen,Urgent,2025-07-30,2025-08-01,2025-08-03,True,Bloods,2025-11-01,completed,GP,Trust C,Dr Brown,Ultrasound Abdomen – follow-up recommended.
+S00225,P73334,Ultrasound,Chest,Routine,2025-09-09,2025-09-22,2025-09-22,True,Ultrasound,2025-11-03,Pending,ED,Trust C,Dr Patel,Ultrasound Chest – follow-up recommended.
+S00226,P33496,CT,Chest,ROUTINE,2025-07-31,2025-08-06,2025-08-10,False,None,,Not required,Respiratory,Trust B,Dr Smith,CT Chest – no follow-up required.
+S00227,P58896,Ultrasound,Spine,Routine,2025-09-28,2025-10-05,2025-10-09,False,None,,Not required,GP,Trust C,Dr Smith,Ultrasound Spine – no follow-up required.
+S00228,P22255,Ultrasound,Spine,Routine,2025-08-30,2025-08-31,2025-08-31,No,None,,Not required,GP,Trust B,Dr Patel,Ultrasound Spine – no follow-up required.
+S00229,P94529,X-ray,Pelvis,Emergency,2025-07-13,2025-08-10,2025-08-10,True,Bloods,2025-11-08,Completed,GP,Trust A,Dr Lee,X-ray Pelvis – follow-up recommended.
+S00230,P81176,CT,Abdomen,2WW,2025-08-10,2025-08-10,2025-08-13,False,None,,Not required,Surgery,Trust B,Dr Smith,CT Abdomen – no follow-up required.
+S00231,P49226,MRI,Pelvis,Routine,2025-10-15,2025-11-11,2025-11-17,False,None,,not required,ED,Trust B,Dr Patel,MRI Pelvis – no follow-up required.
+S00232,P28343,CT,Pelvis,URGENT,2025-08-14,2025-08-15,2025-08-16,False,None,,Not required,GP,Trust B,Dr Brown,CT Pelvis – no follow-up required.
+S00233,P90460,Ultrasound,Shoulder,Routine,2025-09-20,,2025-10-05,False,None,,Not required,Respiratory,Trust C,Dr Patel,Ultrasound Shoulder – no follow-up required.
+S00234,P66603,MRI,Knee,Routine,2025-08-18,2025-08-20,2025-08-24,False,None,,Not required,Surgery,Trust A,Dr Smith,MRI Knee – no follow-up required.
+S00235,P45123,MRI,Spine,Urgent,2025-09-20,2025-09-24,2025-09-30,True,CT,2025-10-14,Pending,Respiratory,Trust B,Dr Lee,MRI Spine – follow-up recommended.
+S00236,P45358,CT,Abdomen,Routine,2025-08-25,2025-09-08,2025-09-14,True,CT,2025-10-26,Pending,ED,Trust C,Dr Lee,CT Abdomen – follow-up recommended.
+S00237,P60493,CT,,Routine,2025-10-08,2025-10-10,2025-10-13,False,None,,Not required,Oncology,Trust C,Dr Patel,CT Head – no follow-up required.
+S00238,P32216,MRI,Head,Routine,2025-09-02,2025-09-06,2025-09-07,True,Ultrasound,2025-12-06,completed,Orthopaedics,Trust A,Dr Lee,MRI Head – follow-up recommended.
+S00239,P42990,MRI,Knee,URGENT,2025-09-15,2025-10-04,2025-10-07,False,None,,Not required,Oncology,Trust B,Dr Smith,MRI Knee – no follow-up required.
+S00240,P61864,X-ray,Shoulder,Urgent,2025-10-11,2025-11-07,2025-11-12,False,None,,Not required,Orthopaedics,Trust C,Dr Brown,X-ray Shoulder – no follow-up required.
+S00241,P27842,X-ray,Head,Urgent,2025-09-27,2025-10-03,2025-10-10,True,Clinic,2025-11-21,completed,Surgery,Trust C,Dr Patel,X-ray Head – follow-up recommended.
+S00242,P85481,MRI,Head,Routine,2025-10-13,2025-11-07,2025-11-13,False,None,,Not required,ED,Trust A,Dr Brown,MRI Head – no follow-up required.
+S00243,P81516,MRI,Knee,Urgent,2025-07-04,2025-08-03,,TRUE,None,,Not required,Oncology,Trust B,Dr Lee,MRI Knee – no follow-up required.
+S00244,P19064,Ultrasound,,Routine,2025-09-20,2025-09-29,2025-10-02,True,MRI,2025-12-31,Overdue,GP,Trust B,Dr Brown,Ultrasound Knee – follow-up recommended.
+S00245,P72814,Ultrasound,Pelvis,Routine,2025-10-26,2025-11-22,2025-11-28,False,None,,Not required,Respiratory,Trust C,Dr Brown,Ultrasound Pelvis – no follow-up required.
+S00246,P87833,CT,Chest,Urgent,2025-09-23,2025-10-14,,True,Bloods,2025-11-02,overdue,Respiratory,Trust B,Dr Smith,CT Chest – follow-up recommended.
+S00247,P11382,CT,Head,Routine,2025-10-04,,2025-10-23,N,None,,Not required,Orthopaedics,Trust B,Dr Brown,CT Head – no follow-up required.
+S00248,P75597,MRI,Head,Emergency,2025-08-31,2025-09-03,2025-09-07,False,None,,Not required,GP,Trust A,Dr Jones,MRI Head – no follow-up required.
+S00249,P55656,X-ray,Head,Routine,2025-07-27,2025-08-12,2025-08-19,True,CT,2025-11-17,Overdue,Respiratory,Trust A,Dr Lee,X-ray Head – follow-up recommended.
+S00250,P15856,CT,Chest,Urgent,2025-09-21,2025-09-24,2025-09-26,Y,None,,Not required,Surgery,Trust A,Dr Brown,CT Chest – no follow-up required.
+S00251,P32865,MRI,Head,Routine,2025-08-29,2025-09-05,2025-09-11,No,None,,Not required,Oncology,Trust C,Dr Patel,MRI Head – no follow-up required.
+S00252,P61849,CT,Knee,Urgent,2025-07-26,2025-08-09,,False,None,,Not required,Surgery,Trust A,Dr Jones,CT Knee – no follow-up required.
+S00253,P46483,CT,Pelvis,Routine,2025-10-20,2025-11-06,2025-11-08,False,None,,Not required,Oncology,Trust B,Dr Smith,CT Pelvis – no follow-up required.
+S00254,P44387,Ultrasound,Pelvis,Emergency,2025-08-10,2025-08-29,2025-09-04,False,None,,Not required,ED,Trust A,Dr Lee,Ultrasound Pelvis – no follow-up required.
+S00255,P56135,Ultrasound,Pelvis,Routine,2025-09-25,2025-10-17,2025-10-21,Y,None,,Not required,ED,Trust A,Dr Jones,Ultrasound Pelvis – no follow-up required.
+S00256,P51049,CT,Abdomen,Routine,2025-07-24,2025-08-04,2025-08-06,False,None,,Not required,Orthopaedics,Trust C,Dr Jones,CT Abdomen – no follow-up required.
+S00257,P85340,Ultrasound,Spine,Routine,2025-09-20,2025-10-07,2025-10-09,Yes,None,,Not required,Orthopaedics,Trust B,Dr Jones,Ultrasound Spine – no follow-up required.
+S00258,P34523,X-ray,Shoulder,Routine,2025-07-07,2025-08-03,2025-08-08,False,None,,Not required,Orthopaedics,Trust A,Dr Jones,X-ray Shoulder – no follow-up required.
+S00259,P60324,Ultrasound,Spine,URGENT,2025-08-23,2025-09-14,2025-09-21,Y,None,,Not required,GP,Trust C,Dr Smith,Ultrasound Spine – no follow-up required.
+S00260,P38905,X-ray,Chest,Routine,2025-09-07,2025-09-16,2025-09-18,False,None,,Not required,ED,Trust C,Dr Patel,X-ray Chest – no follow-up required.
+S00261,P82053,CT,Pelvis,ROUTINE,2025-10-08,2025-10-25,2025-10-30,False,None,,Not required,GP,Trust C,Dr Patel,CT Pelvis – no follow-up required.
+S00262,P81611,MRI,Spine,Routine,2025-10-15,2025-11-04,2025-11-07,True,CT,2026-02-05,Completed,Respiratory,Trust A,Dr Patel,MRI Spine – follow-up recommended.
+S00263,P25386,MRI,Abdomen,Urgent,2025-09-14,2025-10-06,2025-10-11,False,None,tbc,Not required,ED,Trust C,Dr Patel,MRI Abdomen – no follow-up required.
+S00264,P31755,MRI,Shoulder,,2025-07-27,,2025-08-21,False,None,,Not required,ED,Trust B,Dr Brown,MRI Shoulder – no follow-up required.
+S00265,P80617,MRI,Head,Emergency,2025-08-07,2025-08-16,2025-08-20,False,None,,Not required,ED,Trust C,Dr Smith,MRI Head – no follow-up required.
+S00266,P27771,Ultrasound,Chest,Emergency,2025-10-19,2025-11-08,2025-11-10,No,None,tbc,Not required,Oncology,Trust A,Dr Jones,Ultrasound Chest – no follow-up required.
+S00267,P52217,MRI,Shoulder,Urgent,2025-08-20,2025-09-04,2025-09-06,False,None,,Not required,Respiratory,Trust C,Dr Patel,MRI Shoulder – no follow-up required.
+S00268,P59174,Ultrasound,Chest,Urgent,2025-10-21,2025-11-14,2025-11-15,False,None,,Not required,Surgery,Trust B,Dr Lee,Ultrasound Chest – no follow-up required.
+S00269,P69597,Ultrasound,Head,Routine,2025-10-20,2025-11-13,2025-11-14,False,None,tbc,Not required,Orthopaedics,Trust C,Dr Lee,Ultrasound Head – no follow-up required.
+S00270,P18300,Ultrasound,Abdomen,EMERGENCY,2025-10-14,2025-10-20,2025-10-27,True,Ultrasound,2025-12-08,Scheduled,ED,Trust B,Dr Lee,Ultrasound Abdomen – follow-up recommended.
+S00271,P99463,CT,Chest,Routine,2025-10-09,2025-11-04,2025-11-11,True,MRI,2026-02-09,Overdue,GP,Trust B,Dr Jones,CT Chest – follow-up recommended.
+S00272,P27290,X-ray,Abdomen,2WW,2025-10-21,2025-10-29,2025-10-30,False,None,,Not required,Respiratory,Trust A,Dr Lee,X-ray Abdomen – no follow-up required.
+S00273,P97098,MRI,Chest,Routine,2025-08-09,,2025-09-04,False,None,,Not required,GP,Trust C,Dr Smith,MRI Chest – no follow-up required.
+S00274,P10142,MRI,Spine,Routine,2025-09-14,2025-09-21,2025-09-28,True,Ultrasound,2025-10-12,Overdue,Surgery,Trust A,Dr Patel,MRI Spine – follow-up recommended.
+S00275,P19283,MRI,Spine,Routine,2025-10-12,2025-10-15,2025-10-16,True,Ultrasound,2025-11-15,Overdue,Oncology,Trust C,Dr Jones,MRI Spine – follow-up recommended.
+S00276,P18966,CT,Pelvis,URGENT,2025-08-26,2025-09-06,2025-09-09,False,None,,Not required,Oncology,Trust B,Dr Brown,CT Pelvis – no follow-up required.
+S00277,P99989,Ultrasound,Shoulder,Routine,2025-10-23,2025-10-26,2025-10-28,False,None,,Not required,ED,Trust C,Dr Patel,Ultrasound Shoulder – no follow-up required.
+S00278,P56076,Ultrasound,Head,Urgent,2025-08-01,2025-08-09,2025-08-10,True,Bloods,2025-09-21,Pending,Surgery,Trust B,Dr Jones,Ultrasound Head – follow-up recommended.
+S00279,P77862,MRI,Knee,Routine,2025-09-21,2025-09-22,2025-09-25,No,None,,not required,GP,Trust A,Dr Patel,MRI Knee – no follow-up required.
+S00280,P93634,CT,Pelvis,2WW,2025-07-02,2025-07-13,,True,Bloods,2025-10-16,Completed,ED,Trust C,Dr Jones,CT Pelvis – follow-up recommended.
+S00281,P71736,CT,Chest,Routine,2025-07-02,2025-07-10,2025-07-13,True,CT,2025-10-11,Completed,Surgery,Trust C,Dr Brown,CT Chest – follow-up recommended.
+S00282,P64451,Ultrasound,Knee,Routine,2025-09-20,2025-10-07,2025-10-09,No,Ultrasound,2025-10-23,Scheduled,Oncology,Trust C,Dr Lee,Ultrasound Knee – follow-up recommended.
+S00283,P61213,CT,Head,Urgent,2025-10-02,,2025-11-04,True,CT,2026-02-02,pending,Orthopaedics,Trust C,Dr Brown,CT Head – follow-up recommended.
+S00284,P17212,X-ray,Knee,Urgent,2025-10-03,2025-10-08,2025-10-09,Yes,MRI,2025-10-23,Scheduled,Orthopaedics,Trust B,Dr Brown,X-ray Knee – follow-up recommended.
+S00285,P77793,X-ray,,Routine,2025-10-04,2025-10-28,2025-11-01,False,None,,Not required,GP,Trust A,Dr Lee,X-ray Abdomen – no follow-up required.
+S00286,P66272,X-ray,Pelvis,Routine,2025-09-30,2025-10-18,2025-10-19,False,None,,Not required,ED,Trust B,Dr Smith,X-ray Pelvis – no follow-up required.
+S00287,P75484,MRI,Head,Routine,2025-10-07,2025-10-10,2025-10-11,True,Bloods,2025-10-25,Pending,GP,Trust A,Dr Smith,MRI Head – follow-up recommended.
+S00288,P71835,X-ray,Spine,2WW,2025-07-23,,2025-08-21,False,None,,Not required,Surgery,Trust C,Dr Patel,X-ray Spine – no follow-up required.
+S00289,P39427,X-ray,Abdomen,Routine,2025-10-01,2025-10-11,2025-10-15,False,None,,Not required,ED,Trust B,Dr Smith,X-ray Abdomen – no follow-up required.
+S00290,P75803,CT,,Routine,2025-09-05,2025-09-06,2025-09-12,True,Clinic,2025-10-24,Completed,Respiratory,Trust A,Dr Brown,CT Abdomen – follow-up recommended.
+S00291,P69866,CT,,Routine,2025-09-11,2025-10-06,2025-10-10,FALSE,None,,Not required,Oncology,Trust B,Dr Lee,CT Head – no follow-up required.
+S00292,P87554,Ultrasound,Shoulder,Urgent,2025-10-02,2025-10-30,2025-11-02,True,Clinic,2025-11-16,Scheduled,ED,Trust B,Dr Smith,Ultrasound Shoulder – follow-up recommended.
+S00293,P53911,CT,Shoulder,Urgent,2025-10-17,2025-11-09,2025-11-13,True,Bloods,2025-12-13,Overdue,Orthopaedics,Trust A,Dr Jones,CT Shoulder – follow-up recommended.
+S00294,P46677,CT,Chest,,2025-10-23,2025-11-19,2025-11-25,False,None,,not required,Respiratory,Trust B,Dr Smith,CT Chest – no follow-up required.
+S00295,P86122,CT,Pelvis,Routine,2025-10-13,2025-10-25,2025-10-26,False,None,,not required,GP,Trust B,Dr Jones,CT Pelvis – no follow-up required.
+S00296,P41034,X-ray,Head,2WW,2025-10-27,2025-11-21,2025-11-27,Y,None,,Not required,Surgery,Trust B,Dr Lee,X-ray Head – no follow-up required.
+S00297,P69343,X-ray,Abdomen,Routine,2025-07-26,2025-07-30,2025-07-31,True,MRI,2025-10-29,overdue,Respiratory,Trust B,Dr Smith,X-ray Abdomen – follow-up recommended.
+S00298,P80244,X-ray,Shoulder,Routine,2025-08-09,2025-08-23,2025-08-27,False,None,,Not required,GP,Trust A,Dr Lee,X-ray Shoulder – no follow-up required.
+S00299,P89076,CT,Abdomen,Urgent,2025-08-11,2025-08-15,,False,None,,Not required,Respiratory,Trust B,Dr Brown,CT Abdomen – no follow-up required.
+S00300,P16416,X-ray,Head,Urgent,2025-07-23,,2025-07-29,False,None,,Not required,ED,Trust C,Dr Brown,X-ray Head – no follow-up required.
+S00301,P42748,CT,Spine,Routine,2025-10-10,2025-10-14,2025-10-15,True,MRI,2025-11-14,Scheduled,Orthopaedics,Trust B,Dr Smith,CT Spine – follow-up recommended.
+S00302,P86326,X-ray,Shoulder,Routine,2025-07-09,2025-07-15,2025-07-22,False,None,,Not required,GP,Trust B,Dr Smith,X-ray Shoulder – no follow-up required.
+S00303,P15596,Ultrasound,Chest,Routine,2025-09-12,2025-09-25,2025-10-01,False,None,,Not required,Orthopaedics,Trust C,Dr Patel,Ultrasound Chest – no follow-up required.
+S00304,P32650,X-ray,Abdomen,2WW,2025-08-05,2025-08-13,2025-08-20,No,None,,Not required,GP,Trust C,Dr Brown,X-ray Abdomen – no follow-up required.
+S00305,P90868,MRI,Knee,Routine,2025-08-22,2025-09-19,2025-09-26,True,Ultrasound,2025-12-25,Scheduled,Orthopaedics,Trust A,Dr Brown,MRI Knee – follow-up recommended.
+S00306,P42656,CT,Spine,Urgent,2025-08-15,2025-08-30,2025-09-06,True,Bloods,2025-10-18,Overdue,Respiratory,Trust A,Dr Smith,CT Spine – follow-up recommended.
+S00307,P51795,MRI,Chest,2WW,2025-10-08,2025-10-16,2025-10-16,False,None,,Not required,Orthopaedics,Trust C,Dr Lee,MRI Chest – no follow-up required.
+S00308,P86544,MRI,Abdomen,Routine,2025-09-23,2025-09-30,2025-10-04,False,None,,Not required,Surgery,Trust A,Dr Jones,MRI Abdomen – no follow-up required.
+S00309,P85457,Ultrasound,Head,2WW,2025-10-17,2025-10-22,2025-10-24,True,Ultrasound,2025-12-05,Pending,Surgery,Trust C,Dr Lee,Ultrasound Head – follow-up recommended.
+S00310,P84403,MRI,Pelvis,2WW,2025-10-16,2025-11-10,2025-11-17,False,None,,Not required,Oncology,Trust B,Dr Smith,MRI Pelvis – no follow-up required.
+S00311,P21830,CT,Abdomen,Urgent,2025-07-03,2025-07-19,2025-07-26,True,Bloods,2025-08-25,Scheduled,Respiratory,Trust C,Dr Jones,CT Abdomen – follow-up recommended.
+S00312,P52413,CT,,Routine,2025-09-29,2025-10-28,2025-10-30,False,None,,Not required,ED,Trust B,Dr Smith,CT Chest – no follow-up required.
+S00313,P58967,Ultrasound,Pelvis,Routine,2025-08-08,2025-08-18,,False,None,,Not required,Surgery,Trust B,Dr Patel,Ultrasound Pelvis – no follow-up required.
+S00314,P95089,X-ray,Abdomen,Urgent,2025-09-10,2025-10-02,2025-10-07,True,Bloods,2025-11-06,Overdue,Respiratory,Trust C,Dr Lee,X-ray Abdomen – follow-up recommended.
+S00315,P26691,MRI,Knee,Routine,2025-09-28,2025-10-28,2025-11-03,False,None,,Not required,ED,Trust A,Dr Jones,MRI Knee – no follow-up required.
+S00316,P88956,X-ray,Shoulder,Emergency,2025-07-29,2025-08-18,2025-08-19,False,None,,Not required,Oncology,Trust B,Dr Smith,X-ray Shoulder – no follow-up required.
+S00317,P41194,X-ray,Head,ROUTINE,2025-10-22,2025-11-21,2025-11-22,False,None,,Not required,Surgery,Trust C,Dr Lee,X-ray Head – no follow-up required.
+S00318,P68540,CT,Head,ROUTINE,2025-09-27,2025-09-29,2025-10-04,True,CT,2025-10-18,Pending,Orthopaedics,Trust B,Dr Patel,CT Head – follow-up recommended.
+S00319,P31802,Ultrasound,Spine,2WW,2025-08-14,2025-08-31,2025-09-06,TRUE,Clinic,2025-10-06,Scheduled,Orthopaedics,Trust A,Dr Smith,Ultrasound Spine – follow-up recommended.
+S00320,P48654,CT,Head,Routine,2025-07-14,2025-07-16,2025-07-21,True,Clinic,2025-08-20,Pending,ED,Trust A,Dr Lee,CT Head – follow-up recommended.
+S00321,P87860,Ultrasound,Knee,,2025-10-29,2025-11-18,2025-11-20,False,None,,Not required,Orthopaedics,Trust A,Dr Smith,Ultrasound Knee – no follow-up required.
+S00322,P23272,X-ray,Abdomen,Emergency,2025-08-22,2025-09-13,2025-09-17,Y,None,,Not required,Respiratory,Trust A,Dr Smith,X-ray Abdomen – no follow-up required.
+S00323,P16505,Ultrasound,Pelvis,Routine,2025-09-01,2025-09-05,2025-09-05,TRUE,None,,Not required,Orthopaedics,Trust A,Dr Lee,Ultrasound Pelvis – no follow-up required.
+S00324,P96772,Ultrasound,Abdomen,Routine,2025-07-27,2025-08-01,2025-08-05,Y,None,,Not required,Orthopaedics,Trust A,Dr Lee,Ultrasound Abdomen – no follow-up required.
+S00325,P62096,Ultrasound,Spine,2WW,2025-08-03,2025-08-05,2025-08-11,True,Clinic,2025-09-22,Scheduled,Orthopaedics,Trust A,Dr Lee,Ultrasound Spine – follow-up recommended.
+S00326,P67637,Ultrasound,Head,Routine,2025-08-04,2025-08-22,2025-08-22,True,CT,2025-09-05,Completed,ED,Trust B,Dr Brown,Ultrasound Head – follow-up recommended.
+S00327,P39820,CT,Shoulder,Routine,2025-09-05,2025-09-18,2025-09-25,False,None,,not required,Oncology,Trust B,Dr Lee,CT Shoulder – no follow-up required.
+S00328,P20348,Ultrasound,Shoulder,Urgent,2025-09-03,2025-09-21,2025-09-23,True,Clinic,2025-10-23,Scheduled,Oncology,Trust A,Dr Jones,Ultrasound Shoulder – follow-up recommended.
+S00329,P15593,Ultrasound,Chest,EMERGENCY,2025-08-25,2025-08-31,2025-09-02,False,None,,not required,Respiratory,Trust B,Dr Smith,Ultrasound Chest – no follow-up required.
+S00330,P21406,Ultrasound,Pelvis,Routine,2025-08-11,2025-09-07,2025-09-11,False,None,,Not required,GP,Trust C,Dr Brown,Ultrasound Pelvis – no follow-up required.
+S00331,P87014,Ultrasound,Chest,Routine,2025-07-19,2025-08-06,2025-08-07,False,None,,not required,ED,Trust A,Dr Lee,Ultrasound Chest – no follow-up required.
+S00332,P80206,X-ray,,Routine,2025-09-22,2025-10-07,2025-10-14,True,Ultrasound,2026-01-12,Scheduled,ED,Trust C,Dr Patel,X-ray Spine – follow-up recommended.
+S00333,P15083,Ultrasound,Head,Urgent,2025-07-07,2025-07-30,2025-08-06,False,None,,Not required,Respiratory,Trust A,Dr Lee,Ultrasound Head – no follow-up required.
+S00334,P49722,X-ray,Head,Urgent,2025-10-18,2025-11-09,2025-11-10,False,None,,Not required,Oncology,Trust A,Dr Lee,X-ray Head – no follow-up required.
+S00335,P68079,X-ray,Head,Urgent,2025-09-16,2025-10-06,2025-10-07,True,MRI,2026-01-05,Overdue,ED,Trust B,Dr Smith,X-ray Head – follow-up recommended.
+S00336,P77537,MRI,Chest,Routine,2025-09-03,2025-09-15,2025-09-17,False,None,,Not required,ED,Trust C,Dr Smith,MRI Chest – no follow-up required.
+S00337,P32772,MRI,Shoulder,ROUTINE,2025-07-08,2025-07-15,2025-07-15,False,None,,Not required,Respiratory,Trust C,Dr Jones,MRI Shoulder – no follow-up required.
+S00338,P45910,X-ray,Shoulder,Routine,2025-08-20,2025-09-09,2025-09-10,False,None,,Not required,Oncology,Trust B,Dr Patel,X-ray Shoulder – no follow-up required.
+S00339,P87862,Ultrasound,Abdomen,Emergency,2025-08-30,,2025-09-22,True,Ultrasound,2025-10-06,Completed,GP,Trust B,Dr Smith,Ultrasound Abdomen – follow-up recommended.
+S00340,P31352,MRI,Shoulder,,2025-07-29,2025-08-19,2025-08-22,N,Clinic,2025-09-05,Pending,Orthopaedics,Trust A,Dr Jones,MRI Shoulder – follow-up recommended.
+S00341,P88792,CT,Abdomen,Routine,2025-10-12,2025-11-11,2025-11-15,False,None,,not required,Surgery,Trust C,Dr Lee,CT Abdomen – no follow-up required.
+S00342,P65549,Ultrasound,Shoulder,Routine,2025-08-02,2025-08-08,2025-08-15,N,Bloods,2025-11-13,Pending,GP,Trust C,Dr Lee,Ultrasound Shoulder – follow-up recommended.
+S00343,P83591,X-ray,Head,Urgent,2025-08-31,2025-09-02,2025-09-07,False,None,,Not required,Surgery,Trust B,Dr Lee,X-ray Head – no follow-up required.
+S00344,P44229,X-ray,Abdomen,Routine,2025-10-06,2025-10-13,2025-10-13,False,None,,Not required,ED,Trust B,Dr Lee,X-ray Abdomen – no follow-up required.
+S00345,P99228,MRI,Knee,Routine,2025-09-02,2025-09-11,2025-09-15,FALSE,None,,Not required,Orthopaedics,Trust B,Dr Smith,MRI Knee – no follow-up required.
+S00346,P86418,MRI,Head,Urgent,2025-07-29,2025-08-19,2025-08-26,False,None,,Not required,Surgery,Trust B,Dr Brown,MRI Head – no follow-up required.
+S00347,P49347,MRI,Shoulder,Urgent,2025-09-10,2025-09-15,2025-09-19,True,MRI,2025-10-31,Scheduled,Surgery,Trust B,Dr Smith,MRI Shoulder – follow-up recommended.
+S00348,P39131,X-ray,Abdomen,Urgent,2025-08-09,2025-08-22,2025-08-27,False,None,,Not required,ED,Trust B,Dr Patel,X-ray Abdomen – no follow-up required.
+S00349,P25437,Ultrasound,Chest,2WW,2025-09-13,2025-10-01,2025-10-02,False,None,,not required,Oncology,Trust C,Dr Smith,Ultrasound Chest – no follow-up required.
+S00350,P99220,Ultrasound,Pelvis,Routine,2025-07-07,2025-08-03,2025-08-05,True,MRI,2025-09-16,Overdue,ED,Trust B,Dr Jones,Ultrasound Pelvis – follow-up recommended.
+S00351,P51469,MRI,Shoulder,Routine,2025-08-12,2025-09-01,2025-09-03,True,CT,2025-09-17,Overdue,Respiratory,Trust A,Dr Jones,MRI Shoulder – follow-up recommended.
+S00352,P85534,MRI,Spine,Urgent,2025-10-08,2025-10-10,2025-10-12,False,None,,Not required,Surgery,Trust B,Dr Patel,MRI Spine – no follow-up required.
+S00353,P66233,Ultrasound,Spine,Routine,2025-09-07,2025-09-13,2025-09-18,False,None,,Not required,Respiratory,Trust C,Dr Jones,Ultrasound Spine – no follow-up required.
+S00354,P12348,CT,Knee,Urgent,2025-07-29,2025-08-20,2025-08-25,True,CT,2025-11-23,Completed,Oncology,Trust A,Dr Smith,CT Knee – follow-up recommended.
+S00355,P49085,X-ray,Spine,Urgent,2025-09-15,2025-10-01,2025-10-06,False,None,,Not required,Surgery,Trust A,Dr Lee,X-ray Spine – no follow-up required.
+S00356,P74248,X-ray,,,2025-10-25,2025-11-23,2025-11-29,True,MRI,2025-12-29,Scheduled,Surgery,Trust A,Dr Brown,X-ray Shoulder – follow-up recommended.
+S00357,P76143,MRI,Chest,ROUTINE,2025-09-22,2025-10-17,2025-10-17,False,None,,not required,Surgery,Trust B,Dr Brown,MRI Chest – no follow-up required.
+S00358,P91675,CT,Pelvis,EMERGENCY,2025-09-23,2025-09-26,2025-09-26,True,CT,2025-12-25,Overdue,Orthopaedics,Trust A,Dr Brown,CT Pelvis – follow-up recommended.
+S00359,P43126,Ultrasound,Knee,Routine,2025-09-27,2025-10-18,2025-10-18,True,CT,2025-11-29,Scheduled,Orthopaedics,Trust A,Dr Brown,Ultrasound Knee – follow-up recommended.
+S00360,P90962,CT,Head,Routine,2025-07-14,2025-07-29,2025-08-01,False,None,,not required,Respiratory,Trust C,Dr Jones,CT Head – no follow-up required.
+S00361,P56913,Ultrasound,Head,Routine,2025-09-09,2025-09-24,2025-09-27,False,None,,Not required,Orthopaedics,Trust B,Dr Jones,Ultrasound Head – no follow-up required.
+S00362,P10358,CT,Knee,Routine,2025-07-15,2025-08-10,2025-08-17,True,CT,2025-08-31,Pending,Respiratory,Trust C,Dr Jones,CT Knee – follow-up recommended.
+S00363,P69867,X-ray,Head,Routine,2025-07-13,2025-08-08,2025-08-10,False,None,,Not required,Respiratory,Trust B,Dr Lee,X-ray Head – no follow-up required.
+S00364,P65836,CT,Chest,2WW,2025-10-22,2025-10-23,2025-10-23,False,None,,Not required,Surgery,Trust C,Dr Jones,CT Chest – no follow-up required.
+S00365,P53078,X-ray,Spine,Emergency,2025-08-04,2025-09-01,2025-09-02,False,None,,not required,Respiratory,Trust A,Dr Smith,X-ray Spine – no follow-up required.
+S00366,P62530,Ultrasound,Spine,Routine,2025-08-19,2025-09-10,2025-09-17,False,None,,Not required,Surgery,Trust A,Dr Smith,Ultrasound Spine – no follow-up required.
+S00367,P27368,CT,Shoulder,Routine,2025-08-23,2025-09-21,2025-09-28,False,None,,Not required,Surgery,Trust B,Dr Jones,CT Shoulder – no follow-up required.
+S00368,P90127,Ultrasound,Shoulder,Routine,2025-07-04,2025-07-31,2025-08-02,False,None,,Not required,Orthopaedics,Trust A,Dr Patel,Ultrasound Shoulder – no follow-up required.
+S00369,P67761,CT,Chest,Routine,2025-08-10,2025-08-10,2025-08-13,False,None,,Not required,Surgery,Trust B,Dr Brown,CT Chest – no follow-up required.
+S00370,P78564,CT,Spine,Urgent,2025-08-01,2025-08-16,2025-08-21,False,None,,Not required,Surgery,Trust B,Dr Jones,CT Spine – no follow-up required.
+S00371,P83183,CT,,Urgent,2025-07-21,2025-08-06,2025-08-13,False,None,,Not required,Oncology,Trust A,Dr Patel,CT Chest – no follow-up required.
+S00372,P52026,MRI,Head,Emergency,2025-07-07,2025-07-23,2025-07-26,False,None,,Not required,Orthopaedics,Trust B,Dr Jones,MRI Head – no follow-up required.
+S00373,P20332,Ultrasound,Spine,Urgent,2025-08-27,2025-08-29,2025-09-05,False,None,,Not required,GP,Trust B,Dr Smith,Ultrasound Spine – no follow-up required.
+S00374,P23453,Ultrasound,Spine,,2025-09-09,2025-09-09,2025-09-10,False,None,,Not required,ED,Trust C,Dr Lee,Ultrasound Spine – no follow-up required.
+S00375,P76628,MRI,Knee,Urgent,2025-08-13,2025-08-24,2025-08-24,False,None,,Not required,Orthopaedics,Trust B,Dr Brown,MRI Knee – no follow-up required.
+S00376,P91232,Ultrasound,Knee,Urgent,2025-09-30,2025-10-14,2025-10-15,True,MRI,2025-10-29,Completed,Respiratory,Trust C,Dr Lee,Ultrasound Knee – follow-up recommended.
+S00377,P81786,X-ray,,Routine,2025-10-23,2025-10-28,2025-11-04,True,Clinic,2025-11-18,Completed,ED,Trust A,Dr Jones,X-ray Knee – follow-up recommended.
+S00378,P25826,Ultrasound,Abdomen,,2025-10-09,2025-10-15,2025-10-20,True,Clinic,2025-11-03,Pending,Orthopaedics,Trust B,Dr Brown,Ultrasound Abdomen – follow-up recommended.
+S00379,P76086,MRI,Spine,Routine,2025-10-03,2025-10-04,2025-10-10,False,None,,Not required,Orthopaedics,Trust C,Dr Jones,MRI Spine – no follow-up required.
+S00380,P85832,MRI,Knee,Urgent,2025-07-14,2025-07-26,2025-07-31,False,None,,Not required,Orthopaedics,Trust B,Dr Brown,MRI Knee – no follow-up required.
+S00381,P42537,X-ray,Spine,Emergency,2025-08-07,2025-08-21,2025-08-23,True,Bloods,2025-10-04,Completed,Surgery,Trust C,Dr Brown,X-ray Spine – follow-up recommended.
+S00382,P92913,MRI,Abdomen,,2025-09-30,2025-10-09,2025-10-14,False,None,,Not required,Oncology,Trust C,Dr Jones,MRI Abdomen – no follow-up required.
+S00383,P76046,X-ray,Knee,ROUTINE,2025-08-15,2025-09-01,2025-09-08,False,None,,Not required,Surgery,Trust C,Dr Patel,X-ray Knee – no follow-up required.
+S00384,P98374,X-ray,Shoulder,ROUTINE,2025-07-02,2025-07-18,2025-07-19,True,MRI,2025-08-02,Pending,Oncology,Trust B,Dr Jones,X-ray Shoulder – follow-up recommended.
+S00385,P47567,X-ray,Abdomen,Urgent,2025-09-27,2025-10-22,2025-10-26,True,Bloods,2025-11-09,Completed,Orthopaedics,Trust A,Dr Brown,X-ray Abdomen – follow-up recommended.
+S00386,P98542,MRI,Knee,Urgent,2025-08-19,2025-08-26,,TRUE,None,,Not required,GP,Trust B,Dr Patel,MRI Knee – no follow-up required.
+S00387,P64600,X-ray,Pelvis,Routine,2025-10-04,2025-10-12,2025-10-15,N,None,,Not required,Orthopaedics,Trust A,Dr Lee,X-ray Pelvis – no follow-up required.
+S00388,P87120,MRI,Shoulder,Urgent,2025-07-25,2025-08-03,2025-08-10,True,CT,2025-09-09,Scheduled,Surgery,Trust C,Dr Smith,MRI Shoulder – follow-up recommended.
+S00389,P59440,CT,Spine,Routine,2025-08-03,2025-08-07,2025-08-09,Yes,None,,Not required,Respiratory,Trust A,Dr Lee,CT Spine – no follow-up required.
+S00390,P71122,MRI,Chest,Routine,2025-08-11,2025-08-30,2025-08-30,False,None,,Not required,Surgery,Trust C,Dr Lee,MRI Chest – no follow-up required.
+S00391,P74297,X-ray,Chest,Urgent,2025-08-10,2025-08-26,2025-08-29,False,None,,Not required,ED,Trust A,Dr Brown,X-ray Chest – no follow-up required.
+S00392,P30889,Ultrasound,Pelvis,Routine,2025-07-12,2025-07-23,2025-07-26,False,None,,Not required,Surgery,Trust B,Dr Lee,Ultrasound Pelvis – no follow-up required.
+S00393,P57290,X-ray,Abdomen,Emergency,2025-09-18,2025-10-04,2025-10-11,False,None,,Not required,Surgery,Trust A,Dr Smith,X-ray Abdomen – no follow-up required.
+S00394,P97679,X-ray,Spine,Routine,2025-09-21,2025-10-10,2025-10-13,N,None,,Not required,Surgery,Trust B,Dr Patel,X-ray Spine – no follow-up required.
+S00395,P24860,Ultrasound,Head,Routine,2025-08-06,2025-08-06,2025-08-11,False,None,,Not required,ED,Trust B,Dr Patel,Ultrasound Head – no follow-up required.
+S00396,P15747,X-ray,Knee,Routine,2025-09-04,2025-09-06,2025-09-07,True,Bloods,2025-09-21,Pending,Oncology,Trust C,Dr Jones,X-ray Knee – follow-up recommended.
+S00397,P99837,Ultrasound,Shoulder,Routine,2025-09-07,2025-10-03,2025-10-09,False,None,,not required,GP,Trust C,Dr Jones,Ultrasound Shoulder – no follow-up required.
+S00398,P13113,Ultrasound,Knee,,2025-07-12,2025-07-14,2025-07-14,True,Ultrasound,2025-07-28,Scheduled,Respiratory,Trust B,Dr Patel,Ultrasound Knee – follow-up recommended.
+S00399,P69129,Ultrasound,Spine,ROUTINE,2025-08-19,2025-09-09,2025-09-10,False,None,,Not required,Surgery,Trust C,Dr Brown,Ultrasound Spine – no follow-up required.
+S00400,P18288,CT,Knee,Urgent,2025-08-15,2025-09-13,2025-09-14,True,Ultrasound,2025-09-28,Completed,Orthopaedics,Trust B,Dr Patel,CT Knee – follow-up recommended.
+S00401,P96602,CT,Spine,,2025-07-29,2025-08-02,,False,None,,not required,ED,Trust B,Dr Jones,CT Spine – no follow-up required.
+S00402,P49066,X-ray,Chest,ROUTINE,2025-09-10,,2025-09-15,FALSE,Bloods,2025-12-14,Pending,Respiratory,Trust A,Dr Lee,X-ray Chest – follow-up recommended.
+S00403,P37752,Ultrasound,Knee,2WW,2025-07-19,2025-07-24,,True,Ultrasound,2025-08-25,Pending,Oncology,Trust C,Dr Brown,Ultrasound Knee – follow-up recommended.
+S00404,P17128,Ultrasound,Knee,Routine,2025-08-07,2025-08-28,2025-08-29,True,MRI,2025-11-27,Completed,Respiratory,Trust A,Dr Jones,Ultrasound Knee – follow-up recommended.
+S00405,P23113,X-ray,Pelvis,ROUTINE,2025-07-25,2025-08-04,2025-08-11,False,None,,Not required,ED,Trust C,Dr Lee,X-ray Pelvis – no follow-up required.
+S00406,P86568,MRI,Pelvis,Routine,2025-10-12,2025-10-22,2025-10-28,True,Ultrasound,2025-11-27,Scheduled,Surgery,Trust C,Dr Patel,MRI Pelvis – follow-up recommended.
+S00407,P46264,X-ray,,Urgent,2025-08-12,2025-09-09,2025-09-16,FALSE,None,,Not required,Respiratory,Trust B,Dr Patel,X-ray Abdomen – no follow-up required.
+S00408,P82308,CT,Abdomen,Urgent,2025-07-11,2025-08-06,2025-08-10,False,None,,Not required,Oncology,Trust C,Dr Jones,CT Abdomen – no follow-up required.
+S00409,P44502,CT,Knee,Routine,2025-07-03,2025-07-30,2025-07-30,False,None,,Not required,ED,Trust B,Dr Brown,CT Knee – no follow-up required.
+S00410,P37886,CT,Pelvis,Routine,2025-10-23,2025-11-09,2025-11-16,False,None,,Not required,Oncology,Trust B,Dr Patel,CT Pelvis – no follow-up required.
+S00411,P39269,X-ray,Abdomen,ROUTINE,2025-09-04,2025-09-06,2025-09-12,False,None,,Not required,GP,Trust C,Dr Jones,X-ray Abdomen – no follow-up required.
+S00412,P90482,MRI,Shoulder,Routine,2025-08-27,2025-09-01,2025-09-03,False,None,,Not required,ED,Trust C,Dr Jones,MRI Shoulder – no follow-up required.
+S00413,P73373,X-ray,Chest,Routine,2025-09-01,2025-09-08,2025-09-09,Y,MRI,2025-09-23,scheduled,ED,Trust B,Dr Patel,X-ray Chest – follow-up recommended.
+S00414,P71561,Ultrasound,Chest,Routine,2025-09-22,2025-10-02,2025-10-03,False,None,,Not required,ED,Trust C,Dr Lee,Ultrasound Chest – no follow-up required.
+S00415,P44513,MRI,Spine,Urgent,2025-08-16,2025-09-03,2025-09-04,False,None,,Not required,Orthopaedics,Trust A,Dr Brown,MRI Spine – no follow-up required.
+S00416,P63194,X-ray,Shoulder,2WW,2025-09-01,,2025-10-03,False,None,,Not required,GP,Trust C,Dr Jones,X-ray Shoulder – no follow-up required.
+S00417,P67658,MRI,Abdomen,Routine,2025-09-21,2025-09-29,2025-10-02,True,MRI,2025-11-13,pending,Surgery,Trust A,Dr Patel,MRI Abdomen – follow-up recommended.
+S00418,P53283,CT,Spine,Urgent,2025-08-31,2025-09-06,2025-09-08,Y,None,,not required,Orthopaedics,Trust A,Dr Jones,CT Spine – no follow-up required.
+S00419,P15655,MRI,Pelvis,Routine,2025-07-18,2025-08-07,2025-08-07,False,None,,Not required,Oncology,Trust A,Dr Jones,MRI Pelvis – no follow-up required.
+S00420,P43850,MRI,Pelvis,Emergency,2025-09-15,2025-10-03,2025-10-03,False,None,,Not required,Surgery,Trust C,Dr Lee,MRI Pelvis – no follow-up required.
+S00421,P21239,MRI,Spine,Urgent,2025-08-30,2025-09-26,,TRUE,Clinic,2025-11-02,scheduled,ED,Trust C,Dr Brown,MRI Spine – follow-up recommended.
+S00422,P44671,MRI,Knee,Urgent,2025-10-27,2025-11-10,2025-11-11,True,Clinic,2025-12-11,Pending,GP,Trust A,Dr Brown,MRI Knee – follow-up recommended.
+S00423,P76107,Ultrasound,Shoulder,Routine,2025-07-13,2025-07-18,2025-07-25,False,None,,Not required,ED,Trust A,Dr Brown,Ultrasound Shoulder – no follow-up required.
+S00424,P75972,CT,Chest,Routine,2025-07-17,2025-08-14,2025-08-14,False,None,,Not required,Surgery,Trust C,Dr Patel,CT Chest – no follow-up required.
+S00425,P78425,Ultrasound,Head,,2025-09-28,2025-10-14,2025-10-20,True,Clinic,2026-01-18,Completed,ED,Trust C,Dr Brown,Ultrasound Head – follow-up recommended.
+S00426,P22807,Ultrasound,Abdomen,Routine,2025-10-07,,2025-10-15,True,Bloods,2026-01-13,Completed,Oncology,Trust A,Dr Smith,Ultrasound Abdomen – follow-up recommended.
+S00427,P85757,CT,Pelvis,Routine,2025-09-22,2025-09-28,2025-10-03,Y,None,tbc,Not required,GP,Trust A,Dr Patel,CT Pelvis – no follow-up required.
+S00428,P95403,X-ray,Head,2WW,2025-08-24,2025-09-11,2025-09-16,False,None,,Not required,Surgery,Trust B,Dr Jones,X-ray Head – no follow-up required.
+S00429,P64162,Ultrasound,Abdomen,Routine,2025-09-10,2025-09-25,2025-09-29,False,None,,Not required,ED,Trust B,Dr Patel,Ultrasound Abdomen – no follow-up required.
+S00430,P28096,CT,Knee,Routine,2025-10-09,2025-10-31,2025-11-02,True,Bloods,2026-01-31,Completed,ED,Trust C,Dr Smith,CT Knee – follow-up recommended.
+S00431,P31068,Ultrasound,Knee,Routine,2025-07-12,2025-08-07,2025-08-09,False,None,,Not required,ED,Trust B,Dr Smith,Ultrasound Knee – no follow-up required.
+S00432,P18399,X-ray,Abdomen,ROUTINE,2025-09-16,2025-09-17,2025-09-23,False,None,,Not required,Orthopaedics,Trust C,Dr Brown,X-ray Abdomen – no follow-up required.
+S00433,P47548,CT,Shoulder,Urgent,2025-09-20,2025-10-05,2025-10-12,FALSE,Bloods,2025-11-23,Scheduled,GP,Trust C,Dr Brown,CT Shoulder – follow-up recommended.
+S00434,P77608,MRI,Pelvis,Routine,2025-07-05,2025-07-16,2025-07-19,False,None,,Not required,Oncology,Trust A,Dr Lee,MRI Pelvis – no follow-up required.
+S00435,P62354,X-ray,Knee,Routine,2025-09-14,,2025-09-20,False,None,tbc,Not required,GP,Trust A,Dr Brown,X-ray Knee – no follow-up required.
+S00436,P47289,X-ray,Head,,2025-08-05,2025-08-12,2025-08-15,False,None,,Not required,Orthopaedics,Trust C,Dr Smith,X-ray Head – no follow-up required.
+S00437,P44223,MRI,Spine,Routine,2025-09-10,2025-09-12,2025-09-16,True,CT,2025-10-28,Completed,Surgery,Trust B,Dr Patel,MRI Spine – follow-up recommended.
+S00438,P83815,Ultrasound,Shoulder,Routine,2025-08-13,2025-09-12,2025-09-19,False,None,,Not required,ED,Trust A,Dr Patel,Ultrasound Shoulder – no follow-up required.
+S00439,P25239,X-ray,Chest,ROUTINE,2025-10-09,2025-10-16,2025-10-19,False,None,,Not required,Orthopaedics,Trust B,Dr Brown,X-ray Chest – no follow-up required.
+S00440,P80208,CT,Knee,Urgent,2025-08-01,2025-08-10,2025-08-11,False,None,,Not required,Surgery,Trust B,Dr Smith,CT Knee – no follow-up required.
+S00441,P82686,MRI,Spine,Routine,2025-07-28,2025-08-25,2025-08-29,True,MRI,2025-11-27,Scheduled,Oncology,Trust C,Dr Jones,MRI Spine – follow-up recommended.
+S00442,P44787,MRI,Abdomen,Routine,2025-08-01,2025-08-27,2025-09-01,True,CT,2025-09-15,Pending,Surgery,Trust C,Dr Patel,MRI Abdomen – follow-up recommended.
+S00443,P90455,CT,Shoulder,2WW,2025-07-06,2025-08-02,2025-08-09,False,None,,Not required,Respiratory,Trust B,Dr Brown,CT Shoulder – no follow-up required.
+S00444,P46009,Ultrasound,Abdomen,Emergency,2025-10-26,2025-11-11,2025-11-15,False,None,,Not required,ED,Trust A,Dr Smith,Ultrasound Abdomen – no follow-up required.
+S00445,P78909,Ultrasound,Spine,,2025-07-05,2025-07-21,2025-07-26,False,None,,Not required,Surgery,Trust A,Dr Patel,Ultrasound Spine – no follow-up required.
+S00446,P25776,Ultrasound,Head,Urgent,2025-07-02,2025-07-23,2025-07-26,False,None,,Not required,GP,Trust B,Dr Lee,Ultrasound Head – no follow-up required.
+S00447,P90318,X-ray,Abdomen,Routine,2025-07-31,2025-08-08,2025-08-15,N,None,,Not required,Respiratory,Trust B,Dr Jones,X-ray Abdomen – no follow-up required.
+S00448,P75374,Ultrasound,Abdomen,Routine,2025-10-05,2025-10-16,2025-10-21,False,None,,not required,Respiratory,Trust B,Dr Jones,Ultrasound Abdomen – no follow-up required.
+S00449,P84895,MRI,Pelvis,Urgent,2025-10-13,2025-10-16,2025-10-20,False,None,,Not required,ED,Trust B,Dr Patel,MRI Pelvis – no follow-up required.
+S00450,P35698,MRI,Shoulder,Emergency,2025-07-20,2025-08-04,2025-08-04,True,Clinic,2025-09-03,Completed,Orthopaedics,Trust B,Dr Lee,MRI Shoulder – follow-up recommended.
+S00451,P83680,CT,Spine,Routine,2025-07-21,2025-07-22,2025-07-25,False,None,,Not required,Orthopaedics,Trust C,Dr Smith,CT Spine – no follow-up required.
+S00452,P68963,X-ray,Head,Routine,2025-09-10,2025-09-27,2025-10-01,True,Clinic,2025-10-15,Completed,Surgery,Trust C,Dr Jones,X-ray Head – follow-up recommended.
+S00453,P85609,MRI,Shoulder,Routine,2025-08-11,2025-09-01,2025-09-08,False,None,,Not required,Orthopaedics,Trust A,Dr Patel,MRI Shoulder – no follow-up required.
+S00454,P90434,X-ray,Spine,Urgent,2025-07-19,,2025-08-17,False,None,,Not required,Respiratory,Trust B,Dr Brown,X-ray Spine – no follow-up required.
+S00455,P84925,Ultrasound,Shoulder,2WW,2025-07-11,2025-07-16,2025-07-21,True,Ultrasound,2025-09-01,Completed,ED,Trust C,Dr Patel,Ultrasound Shoulder – follow-up recommended.
+S00456,P45553,Ultrasound,,2WW,2025-08-16,2025-09-08,2025-09-15,False,None,,Not required,Oncology,Trust A,Dr Jones,Ultrasound Shoulder – no follow-up required.
+S00457,P40753,X-ray,Knee,Urgent,2025-07-11,2025-07-17,2025-07-19,False,None,,Not required,GP,Trust A,Dr Patel,X-ray Knee – no follow-up required.
+S00458,P81884,CT,Chest,Urgent,2025-09-06,2025-09-30,2025-10-01,Yes,Bloods,2025-10-31,Pending,Surgery,Trust B,Dr Lee,CT Chest – follow-up recommended.
+S00459,P40062,MRI,Knee,Routine,2025-09-19,2025-09-23,2025-09-25,False,None,,Not required,Oncology,Trust A,Dr Smith,MRI Knee – no follow-up required.
+S00460,P96972,X-ray,Shoulder,2WW,2025-10-19,2025-11-03,2025-11-10,False,None,,Not required,ED,Trust B,Dr Brown,X-ray Shoulder – no follow-up required.
+S00461,P68306,MRI,Knee,Routine,2025-09-14,2025-10-03,2025-10-10,N,None,,Not required,Surgery,Trust C,Dr Patel,MRI Knee – no follow-up required.
+S00462,P78610,X-ray,Head,Routine,2025-07-30,2025-08-24,2025-08-25,No,None,,Not required,Respiratory,Trust B,Dr Lee,X-ray Head – no follow-up required.
+S00463,P30410,X-ray,Chest,Routine,2025-10-13,2025-11-06,2025-11-08,True,Clinic,2025-11-22,Overdue,Orthopaedics,Trust B,Dr Smith,X-ray Chest – follow-up recommended.
+S00464,P66418,X-ray,Pelvis,Routine,2025-07-01,2025-07-18,2025-07-23,True,Bloods,2025-10-21,Overdue,Oncology,Trust A,Dr Patel,X-ray Pelvis – follow-up recommended.
+S00465,P59592,MRI,Head,Routine,2025-09-19,2025-09-26,2025-09-30,True,Bloods,2025-11-11,Overdue,Oncology,Trust A,Dr Jones,MRI Head – follow-up recommended.
+S00466,P27907,X-ray,Chest,Urgent,2025-09-18,2025-10-02,2025-10-06,False,None,,Not required,Orthopaedics,Trust A,Dr Lee,X-ray Chest – no follow-up required.
+S00467,P12542,MRI,Chest,Emergency,2025-07-03,2025-07-08,2025-07-09,True,MRI,2025-10-07,pending,Oncology,Trust A,Dr Jones,MRI Chest – follow-up recommended.
+S00468,P11930,Ultrasound,Abdomen,Routine,2025-08-09,2025-09-03,2025-09-10,False,None,tbc,Not required,Orthopaedics,Trust C,Dr Smith,Ultrasound Abdomen – no follow-up required.
+S00469,P53286,CT,Shoulder,Urgent,2025-07-19,2025-07-20,,False,None,,Not required,GP,Trust C,Dr Patel,CT Shoulder – no follow-up required.
+S00470,P33803,MRI,,Routine,2025-08-18,2025-09-13,,True,MRI,2025-12-12,Overdue,Oncology,Trust C,Dr Smith,MRI Shoulder – follow-up recommended.
+S00471,P36106,Ultrasound,Knee,Urgent,2025-09-05,2025-09-26,2025-09-29,False,None,,Not required,Surgery,Trust B,Dr Lee,Ultrasound Knee – no follow-up required.
+S00472,P30789,CT,Knee,2WW,2025-09-05,2025-09-08,2025-09-12,Yes,None,,Not required,Respiratory,Trust A,Dr Lee,CT Knee – no follow-up required.
+S00473,P16827,MRI,Chest,Routine,2025-08-25,2025-09-04,2025-09-04,True,Ultrasound,2025-09-18,Overdue,Oncology,Trust A,Dr Smith,MRI Chest – follow-up recommended.
+S00474,P86162,Ultrasound,Knee,,2025-08-17,2025-09-10,2025-09-11,True,Clinic,2025-09-25,Completed,Surgery,Trust A,Dr Smith,Ultrasound Knee – follow-up recommended.
+S00475,P56598,MRI,Knee,ROUTINE,2025-07-14,2025-07-18,2025-07-25,True,Bloods,2025-09-05,Overdue,Surgery,Trust A,Dr Smith,MRI Knee – follow-up recommended.
+S00476,P59514,X-ray,Knee,Routine,2025-10-24,2025-10-25,2025-11-01,False,None,,Not required,ED,Trust B,Dr Brown,X-ray Knee – no follow-up required.
+S00477,P74237,MRI,Pelvis,ROUTINE,2025-08-14,2025-08-24,2025-08-31,True,Bloods,2025-09-30,Pending,ED,Trust A,Dr Patel,MRI Pelvis – follow-up recommended.
+S00478,P48754,X-ray,Pelvis,Routine,2025-07-01,2025-07-25,2025-07-31,False,None,,Not required,GP,Trust C,Dr Lee,X-ray Pelvis – no follow-up required.
+S00479,P91290,MRI,Head,Urgent,2025-09-23,2025-10-23,2025-10-29,True,Clinic,2025-11-28,Completed,Respiratory,Trust B,Dr Lee,MRI Head – follow-up recommended.
+S00480,P24478,CT,Pelvis,Urgent,2025-07-06,2025-08-01,2025-08-03,True,CT,2025-09-02,Pending,Orthopaedics,Trust A,Dr Smith,CT Pelvis – follow-up recommended.
+S00481,P14170,Ultrasound,Knee,Routine,2025-09-18,2025-10-10,2025-10-14,True,MRI,2025-10-28,Pending,Oncology,Trust C,Dr Patel,Ultrasound Knee – follow-up recommended.
+S00482,P20480,Ultrasound,Shoulder,Urgent,2025-08-16,2025-09-02,2025-09-08,FALSE,None,,Not required,Surgery,Trust A,Dr Brown,Ultrasound Shoulder – no follow-up required.
+S00483,P44840,CT,Knee,Routine,2025-08-08,,2025-08-13,False,None,,Not required,GP,Trust A,Dr Jones,CT Knee – no follow-up required.
+S00484,P79685,Ultrasound,Abdomen,Routine,2025-09-23,2025-09-30,2025-10-02,False,None,,Not required,ED,Trust B,Dr Smith,Ultrasound Abdomen – no follow-up required.
+S00485,P93705,X-ray,Knee,Routine,2025-09-24,2025-10-07,2025-10-08,True,MRI,2026-01-06,Completed,Surgery,Trust A,Dr Brown,X-ray Knee – follow-up recommended.
+S00486,P88632,Ultrasound,Head,2WW,2025-09-09,2025-09-19,2025-09-24,False,None,,Not required,Surgery,Trust B,Dr Lee,Ultrasound Head – no follow-up required.
+S00487,P89745,MRI,Pelvis,Routine,2025-08-18,2025-09-11,2025-09-15,False,None,,Not required,Orthopaedics,Trust B,Dr Patel,MRI Pelvis – no follow-up required.
+S00488,P10025,CT,Head,Routine,2025-09-05,2025-09-09,2025-09-13,True,MRI,2025-10-13,Completed,GP,Trust C,Dr Lee,CT Head – follow-up recommended.
+S00489,P82569,MRI,Chest,Routine,2025-08-15,2025-08-19,2025-08-21,True,Bloods,2025-09-20,Scheduled,Respiratory,Trust B,Dr Smith,MRI Chest – follow-up recommended.
+S00490,P84774,Ultrasound,Pelvis,2WW,2025-10-02,2025-10-04,2025-10-09,False,None,,Not required,Oncology,Trust B,Dr Brown,Ultrasound Pelvis – no follow-up required.
+S00491,P22499,X-ray,Chest,Urgent,2025-09-12,2025-09-24,2025-09-25,False,None,,Not required,Respiratory,Trust B,Dr Patel,X-ray Chest – no follow-up required.
+S00492,P64594,CT,Shoulder,Urgent,2025-10-04,2025-10-24,2025-10-24,False,None,,Not required,Surgery,Trust B,Dr Smith,CT Shoulder – no follow-up required.
+S00493,P49948,CT,Head,Routine,2025-07-20,2025-07-30,2025-08-02,True,Clinic,2025-10-31,Pending,Oncology,Trust B,Dr Lee,CT Head – follow-up recommended.
+S00494,P61684,MRI,Abdomen,Routine,2025-08-30,2025-09-17,2025-09-17,False,None,,Not required,Respiratory,Trust A,Dr Patel,MRI Abdomen – no follow-up required.
+S00495,P75774,Ultrasound,Shoulder,Urgent,2025-10-06,2025-10-10,2025-10-17,False,None,,Not required,Orthopaedics,Trust B,Dr Brown,Ultrasound Shoulder – no follow-up required.
+S00496,P35703,MRI,Abdomen,Routine,2025-10-08,2025-10-21,2025-10-26,False,None,,Not required,ED,Trust A,Dr Smith,MRI Abdomen – no follow-up required.
+S00497,P98047,Ultrasound,Spine,Routine,2025-07-25,2025-08-04,2025-08-09,FALSE,None,,Not required,GP,Trust B,Dr Jones,Ultrasound Spine – no follow-up required.
+S00498,P55838,Ultrasound,Pelvis,Routine,2025-07-06,2025-08-04,2025-08-07,TRUE,Ultrasound,2025-09-06,Pending,GP,Trust C,Dr Smith,Ultrasound Pelvis – follow-up recommended.
+S00499,P41856,MRI,Shoulder,Urgent,2025-08-06,2025-08-06,2025-08-11,False,None,tbc,Not required,GP,Trust B,Dr Patel,MRI Shoulder – no follow-up required.
+S00308,P86544,MRI,Abdomen,Routine,2025-09-23,2025-09-30,2025-10-04,False,None,,Not required,Surgery,Trust A,Dr Jones,MRI Abdomen – no follow-up required.
+S00013,P91959,X-ray,Shoulder,Urgent,2025-09-16,,,False,None,,Not required,Oncology,Trust C,Dr Brown,X-ray Shoulder – no follow-up required.
+S00414,P71561,Ultrasound,Chest,Routine,2025-09-22,2025-10-02,2025-10-03,FALSE,None,,Not required,ED,Trust C,Dr Lee,Ultrasound Chest – no follow-up required.
+S00032,P24663,CT,Knee,2WW,2025-09-08,2025-09-09,2025-09-14,FALSE,None,,Not required,Oncology,Trust B,Dr Jones,CT Knee – no follow-up required.
+S00460,P96972,X-ray,Shoulder,2WW,2025-10-19,2025-11-03,2025-11-10,False,None,,Not required,ED,Trust B,Dr Brown,X-ray Shoulder – no follow-up required.
+S00155,P56805,CT,Head,Routine,2025-09-23,2025-10-13,2025-10-14,FALSE,None,,Not required,Surgery,Trust B,Dr Jones,CT Head – no follow-up required.
+S00249,P55656,X-ray,Head,Routine,2025-07-27,2025-08-12,2025-08-19,True,CT,2025-11-17,Overdue,Respiratory,Trust A,Dr Lee,X-ray Head – follow-up recommended.
+S00217,P94765,CT,Spine,Urgent,2025-07-12,2025-07-29,2025-08-01,True,Clinic,2025-08-15,Pending,Oncology,Trust C,Dr Brown,CT Spine – follow-up recommended.
+S00221,P51015,Ultrasound,Chest,Routine,2025-07-29,2025-08-21,2025-08-23,TRUE,Bloods,2025-11-21,Completed,Oncology,Trust A,Dr Lee,Ultrasound Chest – follow-up recommended.
+S00293,P53911,CT,Shoulder,Urgent,2025-10-17,2025-11-09,2025-11-13,True,Bloods,2025-12-13,Overdue,Orthopaedics,Trust A,Dr Jones,CT Shoulder – follow-up recommended.

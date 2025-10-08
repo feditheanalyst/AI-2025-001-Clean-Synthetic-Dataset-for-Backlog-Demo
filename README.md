@@ -28,12 +28,4 @@ The task involved cleaning and standardizing a synthetic radiology backlog datas
 
 #### Final Dataset Description
 
-- The final cleaned dataset is a structured, analysis-ready version of the original radiology backlog data.
-
-- All column names follow a consistent naming convention.
-
-- Duplicates and placeholder entries were resolved.
-
-- Missing values are properly recognized by pandas (NaN/NaT).
-
-- Dates follow the standard ISO format.
+The final cleaned dataset is a structured, analysis-ready version of the original radiology backlog data. All column names now follow a consistent naming convention, ensuring readability and uniformity. Duplicate and placeholder entries have been resolved, and pandas properly recognizes all missing values as NaN or NaT. Additionally, all date fields have been standardized to the ISO format (YYYY-MM-DD), making the dataset fully consistent and suitable for further analysis or reporting.

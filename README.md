@@ -2,7 +2,7 @@
 
 #### Task Summary and Cleaning Approach
 
-The task involved cleaning and standardizing a synthetic radiology backlog dataset using Python and pandas. The goal was to ensure the dataset was consistent, accurate, and ready for further analysis by addressing issues such as inconsistent column names, duplicates, placeholders, and missing values.
+The task involved cleaning and standardizing a synthetic radiology backlog dataset using Python and the pandas library. The goal was to ensure the dataset was consistent, accurate, and ready for further analysis by addressing issues such as inconsistent column names, duplicates, placeholders, and missing values.
 
 
 #### Steps Performed
@@ -37,5 +37,3 @@ The task involved cleaning and standardizing a synthetic radiology backlog datas
 - Missing values are properly recognized by pandas (NaN/NaT).
 
 - Dates follow the standard ISO format.
-
-All categorical fields are standardized and machine-readable.
